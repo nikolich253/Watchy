@@ -1,33 +1,11 @@
-#ifndef WATCHY_7_SEG_H
-#define WATCHY_7_SEG_H
-#include <math.h>
-#include <Watchy.h>
-#include "watchy-starfield/Dusk2Dawn.h"
-#include "watchy-starfield/moonPhaser.h"
-#include "commonFaceFiles/Seven_Segment10pt7b.h"
-#include "commonFaceFiles/DSEG7_Classic_Regular_15.h"
-#include "commonFaceFiles/DSEG7_Classic_Bold_25.h"
-#include "commonFaceFiles/DSEG7_Classic_Regular_39.h"
-#include "commonFaceFiles/icons.h"
+#include "main.h"
+#include "settings.h"
 
-class Watchy7SEG : public Watchy
+Watchy7SEG watchy(settings);
+
+void setup()
 {
-    using Watchy::Watchy;
+    watchy.init();
+}
 
-public:
-    void drawWatchFace();
-    void drawTime();
-    void drawDate();
-    void drawSteps();
-    //        void drawWeather();
-    //        void drawEva();
-    void drawBattery();
-    //        void drawLine();
-    void drawFiel();
-    void drawMoon();
-
-    void drawSun();
-    virtual void handleButtonPress();
-};
-
-#endif
+void loop() {}

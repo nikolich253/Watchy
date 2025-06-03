@@ -1,6 +1,5 @@
 #include "main.h"
 
-WatchyBig watchyBig;
 Watchy7SEG watchy7Seg;
 
 buttons lastPressedButton = NULL_BTN;
@@ -8,9 +7,8 @@ showFaceMode sfm = SIMPLE;
 TimerHandle_t watchyTimerFace;
 TimerHandle_t watchyTimerButton;
 
-
-
-void timerButtonCallback(TimerHandle_t xTimer){
+void timerButtonCallback(TimerHandle_t xTimer)
+{
     lastPressedButton = NULL_BTN;
 }
 
@@ -25,20 +23,20 @@ void WatchyFace::init()
 {
     // Создаем таймер сброса на простой циферблат(период 5 секунд, автоперезагрузка)
     watchyTimerFace = xTimerCreate(
-        "WatchyTimerFace",        // Название (для отладки)
+        "WatchyTimerFace",    // Название (для отладки)
         pdMS_TO_TICKS(30000), // Период (5 секунд)
         pdFALSE,              // Автоповтор (true)
         (void *)0,            // ID таймера (можно передать данные)
-        timerFaceCallback         // Функция-обработчик
+        timerFaceCallback     // Функция-обработчик
     );
 
     // Создаём таймер сброса кнопок (период 5 секунд, автоперезагрузка)
     watchyTimerButton = xTimerCreate(
-        "WatchyTimerButton",        // Название (для отладки)
+        "WatchyTimerButton", // Название (для отладки)
         pdMS_TO_TICKS(1000), // Период (2 секунд)
-        pdFALSE,              // Автоповтор (true)
-        (void *)0,            // ID таймера (можно передать данные)
-        timerButtonCallback         // Функция-обработчик
+        pdFALSE,             // Автоповтор (true)
+        (void *)0,           // ID таймера (можно передать данные)
+        timerButtonCallback  // Функция-обработчик
     );
 }
 

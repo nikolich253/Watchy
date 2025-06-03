@@ -16,7 +16,7 @@
 moonPhaser moonP;
 
 
-void Watchy7SEG::drawWatchFace()
+void WatchFace::drawDetailWatchFace()
 {
     display.fillScreen(settings.darkMode ? GxEPD_BLACK : GxEPD_WHITE);
     display.setTextColor(settings.darkMode ? GxEPD_WHITE : GxEPD_BLACK);
@@ -24,44 +24,25 @@ void Watchy7SEG::drawWatchFace()
     drawTime();
     drawDate();
     drawSteps();
-    // drawWeather();
+    drawWeather();
     drawBattery();
-    // drawEva();
-    // drawLine();
+    drawEva();
+    drawLine();
 
     display.drawBitmap(118, 168, WIFI_CONFIGURED ? wifi : wifioff, 25, 18, settings.darkMode ? GxEPD_WHITE : GxEPD_BLACK);
-    // if(BLE_CONFIGURED)
-    // {
-    //     display.drawBitmap(100, 75, bluetooth, 13, 21, settings.darkMode ? GxEPD_WHITE : GxEPD_BLACK);
-    // }
+    if(BLE_CONFIGURED)
+    {
+        display.drawBitmap(100, 75, bluetooth, 13, 21, settings.darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+    }
     drawMoon();
     drawSun();
 }
 
-void Watchy7SEG::drawTime()
+void drawTime()
 {
     display.setFont(&DSEG7_Classic_Bold_53);
     display.setCursor(6, 53+5);
-    // int displayHour;
-    // if(settings.hours_am_pm==12)
-    // {
-    //     displayHour = ((currentTime.Hour+11)%12)+1;
-    // }
-    // else
-    // {
-    //     displayHour = currentTime.Hour;
-    // }
-    // if(displayHour < 10)
-    // {
-    //     display.print("0");
-    // }
-    // display.print(displayHour);
-    // display.print(":");
-    // if(currentTime.Minute < 10)
-    // {
-    //     display.print("0");
-    // }
-    // display.println(currentTime.Minute);
+
     long ss = currentTime.Hour * 60 + currentTime.Minute;
     int sh = ss / 60;
 
@@ -172,7 +153,7 @@ void Watchy7SEG::drawTime()
 
 }
 
-void Watchy7SEG::drawDate()
+void drawDate()
 {
     display.setFont(&Seven_Segment10pt7b);
 
@@ -344,7 +325,7 @@ void Watchy7SEG::drawDate()
         display.drawBitmap(71, 129, dd_9, 16, 25, settings.darkMode ? GxEPD_WHITE : GxEPD_BLACK);
 
 }
-void Watchy7SEG::drawSteps()
+void drawSteps()
 {
     // reset step counter at midnight
     if (currentTime.Hour == 0 && currentTime.Minute == 0)
@@ -507,7 +488,7 @@ void Watchy7SEG::drawSteps()
 
 
 }
-void Watchy7SEG::drawBattery()
+void drawBattery()
 {
     // display.drawBitmap(154, 73, battery, 37, 21, settings.darkMode ? GxEPD_WHITE : GxEPD_BLACK);
     // display.fillRect(159, 78, 27, BATTERY_SEGMENT_HEIGHT, settings.darkMode ? GxEPD_BLACK : GxEPD_WHITE);//clear battery segments
@@ -559,13 +540,13 @@ void Watchy7SEG::drawBattery()
 
 
 
-void Watchy7SEG::drawFiel()
+void drawFiel()
 {
     display.drawBitmap(0, 0, field, 200, 200, settings.darkMode ? GxEPD_WHITE : GxEPD_BLACK);
 }
 
 
-void Watchy7SEG::drawMoon() {
+void drawMoon() {
     moonData_t moon;                        // variable to receive the data
 
     // January 31st, 2020 @ 1:30PM UTC
@@ -635,7 +616,7 @@ void Watchy7SEG::drawMoon() {
     //  Serial.println( moon.percentLit * 100 );  // percentLit is a real between 0-1
 }
 
-void Watchy7SEG::drawSun() {
+void drawSun() {
     Dusk2Dawn location(LOC);
     int year = currentTime.Year + 1970;
     int32_t month = currentTime.Month;
@@ -844,7 +825,7 @@ void Watchy7SEG::drawSun() {
         display.drawBitmap(132, 137, num_9, 3, 5, settings.darkMode ? GxEPD_WHITE : GxEPD_BLACK);
 }
 
-void Watchy7SEG::drawWeather()
+void drawWeather()
 {
 
    weatherData currentWeather = getWeatherData();
@@ -916,12 +897,12 @@ void Watchy7SEG::drawWeather()
    display.drawBitmap(145, 158, weatherIcon, WEATHER_ICON_WIDTH, WEATHER_ICON_HEIGHT, settings.darkMode ? GxEPD_WHITE : GxEPD_BLACK);
 }
 
-void Watchy7SEG::drawEva()
+void drawEva()
 {
     display.drawBitmap(105, 100, eva, 100, 100, settings.darkMode ? GxEPD_WHITE : GxEPD_BLACK);
 }
 
-void Watchy7SEG::drawLine()
+void drawLine()
 {
     display.drawBitmap(100, 72, line, 1, 77, settings.darkMode ? GxEPD_WHITE : GxEPD_BLACK);
 }

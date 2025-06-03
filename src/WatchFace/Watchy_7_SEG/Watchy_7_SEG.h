@@ -13,31 +13,16 @@
 #define WEATHER_ICON_WIDTH 48
 #define WEATHER_ICON_HEIGHT 32
 
-class Watchy7SEG : public Watchy
-{
-        using Watchy::Watchy;
-        watchySettings settings;
+void drawDetailWatchFace();
+void drawTime();
+void drawDate();
+void drawSteps();
+void drawWeather();
+void drawEva();
+void drawBattery();
+void drawLine();
+void drawFiel();
+void drawMoon();
 
-public:
-        // Конструктор по умолчанию
-        Watchy7SEG() {}
-        Watchy7SEG(watchySettings s)
-        {
-                settings = s;
-        }
-        void drawWatchFace();
-        void drawTime();
-        void drawDate();
-        void drawSteps();
-        void drawWeather();
-        void drawEva();
-        void drawBattery();
-        void drawLine();
-        void drawFiel();
-        void drawMoon();
-
-        void drawSun();
-        // virtual void handleButtonPress();
-};
-
+void drawSun();
 #endif

@@ -1,11 +1,11 @@
 #include "main.h"
 #include "settings.h"
 
-Watchy7SEG watchy(settings);
+WatchyFace watchy(settings);
 
 void setup()
 {
+    // Инициализация Watchy
     watchy.init();
 }
-
 void loop() {}

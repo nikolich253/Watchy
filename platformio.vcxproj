@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Path>C:/Program Files/PowerShell/7;C:/Users/developer.ALMAZ/.platformio/penv/Scripts;C:/Users/developer.ALMAZ/.platformio/penv;C:/Users/developer.ALMAZ/.platformio/python3;C:/Program Files/Python313/Scripts/;C:/Program Files/Python313/;C:/Program Files/BellSoft/LibericaJDK-11-Full/bin/;C:/Python39/Scripts/;C:/Python39/;C:/Windows/System32;C:/Windows;C:/Windows/System32/wbem;C:/Windows/System32/WindowsPowerShell/v1.0/;C:/Windows/System32/OpenSSH/;C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/;C:/Program Files (x86)/GtkSharp/2.12/bin;C:/Program Files/Java/jdk-14.0.2/bin;C:/ProgramData/chocolatey/bin;C:/Program Files/dotnet/;C:/.platformio/penv/Scripts;C:/WINDOWS/system32;C:/WINDOWS;C:/WINDOWS/System32/Wbem;C:/WINDOWS/System32/WindowsPowerShell/v1.0/;C:/WINDOWS/System32/OpenSSH/;C:/Program Files/PuTTY/;C:/Program Files/WireGuard/;C:/Program Files/WinMerge;C:/Program Files/1C/1CE/components/1c-enterprise-ring-0.11.10+2-x86_64;C:/Program Files/VSCodium/bin;C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/;C:/Program Files/PowerShell/7/;C:/Program Files/Microsoft VS Code/bin;C:/Program Files/Git/cmd;C:/Program Files/GitHub CLI/;C:/Espressif/tools/idf-python/3.11.2/;C:/Espressif/tools/idf-git/2.44.0/cmd/;C:/Program Files/BellSoft/LibericaJDK-11-Full/bin/;C:/Python39/Scripts/;C:/Python39/;C:/Windows/System32;C:/Windows;C:/Windows/System32/wbem;C:/Windows/System32/WindowsPowerShell/v1.0/;C:/Windows/System32/OpenSSH/;C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/;C:/Program Files (x86)/GtkSharp/2.12/bin;C:/Program Files/Java/jdk-14.0.2/bin;C:/ProgramData/chocolatey/bin;C:/Program Files/dotnet/;C:/.platformio/penv/Scripts;C:/WINDOWS/system32;C:/WINDOWS;C:/WINDOWS/System32/Wbem;C:/WINDOWS/System32/WindowsPowerShell/v1.0/;C:/WINDOWS/System32/OpenSSH/;C:/Program Files/PuTTY/;C:/Program Files/Meld/;C:/Program Files/GitHub CLI/;C:/Program Files/Git/cmd;C:/Program Files/WireGuard/;C:/Program Files/WinMerge;C:/Program Files/1C/1CE/components/1c-enterprise-ring-0.11.10+2-x86_64;C:/Program Files/VSCodium/bin;C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/;C:/Program Files/PowerShell/7/;C:/Pro;C:/Users/developer.ALMAZ/AppData/Local/GitHubDesktop/bin;C:/Program Files/Python313/Scripts/;C:/Program Files/Python313/;C:/Program Files/BellSoft/LibericaJDK-11-Full/bin/;C:/Python39/Scripts/;C:/Python39/;C:/Windows/System32;C:/Windows;C:/Windows/System32/wbem;C:/Windows/System32/WindowsPowerShell/v1.0/;C:/Windows/System32/OpenSSH/;C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/;C:/Program Files (x86)/GtkSharp/2.12/bin;C:/Program Files/Java/jdk-14.0.2/bin;C:/ProgramData/chocolatey/bin;C:/Program Files/dotnet/;C:/.platformio/penv/Scripts;C:/WINDOWS/system32;C:/WINDOWS;C:/WINDOWS/System32/Wbem;C:/WINDOWS/System32/WindowsPowerShell/v1.0/;C:/WINDOWS/System32/OpenSSH/;C:/Program Files/PuTTY/;C:/Program Files/WireGuard/;C:/Program Files/WinMerge;C:/Program Files/1C/1CE/components/1c-enterprise-ring-0.11.10+2-x86_64;C:/Program Files/VSCodium/bin;C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/;C:/Program Files/PowerShell/7/;C:/Program Files/Microsoft VS Code/bin;C:/Program Files/Git/cmd;C:/Program Files/GitHub CLI/;C:/Espressif/tools/idf-python/3.11.2/;C:/Espressif/tools/idf-git/2.44.0/cmd/;C:/Program Files/BellSoft/LibericaJDK-11-Full/bin/;C:/Python39/Scripts/;C:/Python39/;C:/Windows/System32;C:/Windows;C:/Windows/System32/wbem;C:/Windows/System32/WindowsPowerShell/v1.0/;C:/Windows/System32/OpenSSH/;C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/;C:/Program Files (x86)/GtkSharp/2.12/bin;C:/Program Files/Java/jdk-14.0.2/bin;C:/ProgramData/chocolatey/bin;C:/Program Files/dotnet/;C:/.platformio/penv/Scripts;C:/WINDOWS/system32;C:/WINDOWS;C:/WINDOWS/System32/Wbem;C:/WINDOWS/System32/WindowsPowerShell/v1.0/;C:/WINDOWS/System32/OpenSSH/;C:/Program Files/PuTTY/;C:/Program Files/Meld/;C:/Program Files/GitHub CLI/;C:/Program Files/Git/cmd;C:/Program Files/WireGuard/;C:/Program Files/WinMerge;C:/Program Files/1C/1CE/components/1c-enterprise-ring-0.11.10+2-x86_64;C:/Program Files/VSCodium/bin;C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/;C:/Program Files/PowerShell/7/;C:/Pro;C:/Users/developer.ALMAZ/AppData/Local/GitHubDesktop/bin;c:/Users/developer.ALMAZ/.vscode/extensions/ms-python.debugpy-2025.8.0-win32-x64/bundled/scripts/noConfigScripts</Path>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0FA9C3A8-452B-41EF-A418-9102B170F49F}</ProjectGuid>
+    <Keyword>MakeFileProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <NMakeBuildCommandLine>platformio -f -c visualstudio run</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>platformio -f -c visualstudio run --target clean</NMakeCleanCommandLine>
+    <NMakePreprocessorDefinitions>PLATFORMIO=60118;ARDUINO_ESP32_DEV;HAVE_CONFIG_H;MBEDTLS_CONFIG_FILE="mbedtls/esp_config.h";UNITY_INCLUDE_CONFIG_H;WITH_POSIX;_GNU_SOURCE;IDF_VER="v4.4.6-dirty";ESP_PLATFORM;_POSIX_READER_WRITER_LOCKS;ARDUINO_ARCH_ESP32;ESP32;F_CPU=240000000L;ARDUINO=10812;ARDUINO_VARIANT="esp32";ARDUINO_BOARD="Espressif ESP32 Dev Module";ARDUINO_PARTITION_min_spiffs</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>D:/source/Watchy/include;D:/source/Watchy/src;D:/source/Watchy/.pio/libdeps/esp32dev/Watchy/src;D:/source/Watchy/.pio/libdeps/esp32dev/DS3232RTC/src;D:/source/Watchy/.pio/libdeps/esp32dev/Time;D:/source/Watchy/.pio/libdeps/esp32dev/Adafruit GFX Library;D:/source/Watchy/.pio/libdeps/esp32dev/Adafruit BusIO;D:/source/Watchy/.pio/libdeps/esp32dev/Arduino_JSON/src;D:/source/Watchy/.pio/libdeps/esp32dev/NTPClient;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/HTTPClient/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/WiFiClientSecure/src;D:/source/Watchy/.pio/libdeps/esp32dev/WiFiManager@src-68e9cdd6b45c2b545b08dd36a06f1851;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/DNSServer/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/WebServer/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/FS/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/Update/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/WiFi/src;D:/source/Watchy/.pio/libdeps/esp32dev/GxEPD2/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/SPI/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/BLE/src;D:/source/Watchy/.pio/libdeps/esp32dev/Rtc_Pcf8563;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/Wire/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/newlib/platform_include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/freertos/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/freertos/include/esp_additions/freertos;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/freertos/port/xtensa/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/freertos/include/esp_additions;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_hw_support/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_hw_support/include/soc;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_hw_support/include/soc/esp32;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_hw_support/port/esp32;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_hw_support/port/esp32/private_include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/heap/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/log/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/lwip/include/apps;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/lwip/include/apps/sntp;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/lwip/lwip/src/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/lwip/port/esp32/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/lwip/port/esp32/include/arch;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/soc/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/soc/esp32;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/soc/esp32/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/hal/esp32/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/hal/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/hal/platform_port/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_rom/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_rom/include/esp32;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_rom/esp32;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_common/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_system/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_system/port/soc;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_system/port/public_compat;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp32/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/xtensa/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/xtensa/esp32/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/driver/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/driver/esp32/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_pm/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_ringbuf/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/efuse/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/efuse/esp32/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/vfs/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_wifi/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_event/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_netif/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_eth/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/tcpip_adapter/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_phy/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_phy/esp32/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_ipc/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/app_trace/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_timer/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/mbedtls/port/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/mbedtls/mbedtls/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/mbedtls/esp_crt_bundle/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/app_update/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/spi_flash/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/bootloader_support/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/nvs_flash/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/pthread/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_gdbstub/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_gdbstub/xtensa;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_gdbstub/esp32;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espcoredump/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espcoredump/include/port/xtensa;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/wpa_supplicant/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/wpa_supplicant/port/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/wpa_supplicant/esp_supplicant/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/ieee802154/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/console;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/asio/asio/asio/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/asio/port/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/bt/common/osi/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/bt/include/esp32/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/bt/common/api/include/api;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/bt/common/btc/profile/esp/blufi/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/bt/common/btc/profile/esp/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/bt/host/bluedroid/api/include/api;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/bt/esp_ble_mesh/mesh_common/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/bt/esp_ble_mesh/mesh_common/tinycrypt/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/bt/esp_ble_mesh/mesh_core;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/bt/esp_ble_mesh/mesh_core/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/bt/esp_ble_mesh/mesh_core/storage;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/bt/esp_ble_mesh/btc/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/bt/esp_ble_mesh/mesh_models/common/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/bt/esp_ble_mesh/mesh_models/client/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/bt/esp_ble_mesh/mesh_models/server/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/bt/esp_ble_mesh/api/core/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/bt/esp_ble_mesh/api/models/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/bt/esp_ble_mesh/api;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/cbor/port/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/unity/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/unity/unity/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/cmock/CMock/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/coap/port/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/coap/libcoap/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/nghttp/port/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/nghttp/nghttp2/lib/includes;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp-tls;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp-tls/esp-tls-crypto;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_adc_cal/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_hid/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/tcp_transport/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_http_client/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_http_server/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_https_ota/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_https_server/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_lcd/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_lcd/interface;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/protobuf-c/protobuf-c;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/protocomm/include/common;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/protocomm/include/security;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/protocomm/include/transports;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/mdns/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_local_ctrl/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/sdmmc/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_serial_slave_link/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_websocket_client/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/expat/expat/expat/lib;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/expat/port/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/wear_levelling/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/fatfs/diskio;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/fatfs/vfs;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/fatfs/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/freemodbus/freemodbus/common/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/idf_test/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/idf_test/include/esp32;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/jsmn/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/json/cJSON;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/libsodium/libsodium/src/libsodium/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/libsodium/port_include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/mqtt/esp-mqtt/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/openssl/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/perfmon/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/spiffs/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/ulp/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/wifi_provisioning/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/rmaker_common/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_diagnostics/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/rtc_store/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_insights/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/json_parser/upstream/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/json_parser/upstream;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/json_generator/upstream;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_schedule/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espressif__esp_secure_cert_mgr/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_rainmaker/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/gpio_button/button/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/qrcode/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/ws2812_led;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_littlefs/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp-dl/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp-dl/include/tool;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp-dl/include/typedef;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp-dl/include/image;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp-dl/include/math;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp-dl/include/nn;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp-dl/include/layer;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp-dl/include/detect;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp-dl/include/model_zoo;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp32-camera/driver/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp32-camera/conversions/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espressif__esp-dsp/modules/dotprod/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espressif__esp-dsp/modules/support/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espressif__esp-dsp/modules/support/mem/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espressif__esp-dsp/modules/windows/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espressif__esp-dsp/modules/windows/hann/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espressif__esp-dsp/modules/windows/blackman/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espressif__esp-dsp/modules/windows/blackman_harris/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espressif__esp-dsp/modules/windows/blackman_nuttall/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espressif__esp-dsp/modules/windows/nuttall/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espressif__esp-dsp/modules/windows/flat_top/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espressif__esp-dsp/modules/iir/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espressif__esp-dsp/modules/fir/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espressif__esp-dsp/modules/math/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espressif__esp-dsp/modules/math/add/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espressif__esp-dsp/modules/math/sub/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espressif__esp-dsp/modules/math/mul/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espressif__esp-dsp/modules/math/addc/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espressif__esp-dsp/modules/math/mulc/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espressif__esp-dsp/modules/math/sqrt/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espressif__esp-dsp/modules/matrix/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espressif__esp-dsp/modules/fft/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espressif__esp-dsp/modules/dct/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espressif__esp-dsp/modules/conv/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espressif__esp-dsp/modules/common/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espressif__esp-dsp/modules/kalman/ekf/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espressif__esp-dsp/modules/kalman/ekf_imu13states/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/fb_gfx/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/dio_qspi/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/cores/esp32;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/variants/esp32;D:/source/Watchy/.pio/libdeps/esp32dev/WiFiManager;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/ArduinoOTA/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/AsyncUDP/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/BluetoothSerial/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/EEPROM/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/ESP32/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/ESPmDNS/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/Ethernet/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/FFat/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/HTTPUpdate/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/HTTPUpdateServer/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/I2S/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/Insights/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/LittleFS/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/NetBIOS/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/Preferences/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/RainMaker/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/SD/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/SD_MMC/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/SPIFFS/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/SimpleBLE/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/Ticker/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/USB/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/WiFiProv/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/toolchain-xtensa-esp32/xtensa-esp32-elf/include/c++/8.4.0;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/toolchain-xtensa-esp32/xtensa-esp32-elf/include/c++/8.4.0/xtensa-esp32-elf;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/toolchain-xtensa-esp32/lib/gcc/xtensa-esp32-elf/8.4.0/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/toolchain-xtensa-esp32/lib/gcc/xtensa-esp32-elf/8.4.0/include-fixed;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/toolchain-xtensa-esp32/xtensa-esp32-elf/include</NMakeIncludeSearchPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <NMakeBuildCommandLine>platformio run</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>platformio run --target clean</NMakeCleanCommandLine>
+    <NMakePreprocessorDefinitions>PLATFORMIO=60118;ARDUINO_ESP32_DEV;HAVE_CONFIG_H;MBEDTLS_CONFIG_FILE="mbedtls/esp_config.h";UNITY_INCLUDE_CONFIG_H;WITH_POSIX;_GNU_SOURCE;IDF_VER="v4.4.6-dirty";ESP_PLATFORM;_POSIX_READER_WRITER_LOCKS;ARDUINO_ARCH_ESP32;ESP32;F_CPU=240000000L;ARDUINO=10812;ARDUINO_VARIANT="esp32";ARDUINO_BOARD="Espressif ESP32 Dev Module";ARDUINO_PARTITION_min_spiffs</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>D:/source/Watchy/include;D:/source/Watchy/src;D:/source/Watchy/.pio/libdeps/esp32dev/Watchy/src;D:/source/Watchy/.pio/libdeps/esp32dev/DS3232RTC/src;D:/source/Watchy/.pio/libdeps/esp32dev/Time;D:/source/Watchy/.pio/libdeps/esp32dev/Adafruit GFX Library;D:/source/Watchy/.pio/libdeps/esp32dev/Adafruit BusIO;D:/source/Watchy/.pio/libdeps/esp32dev/Arduino_JSON/src;D:/source/Watchy/.pio/libdeps/esp32dev/NTPClient;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/HTTPClient/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/WiFiClientSecure/src;D:/source/Watchy/.pio/libdeps/esp32dev/WiFiManager@src-68e9cdd6b45c2b545b08dd36a06f1851;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/DNSServer/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/WebServer/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/FS/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/Update/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/WiFi/src;D:/source/Watchy/.pio/libdeps/esp32dev/GxEPD2/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/SPI/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/BLE/src;D:/source/Watchy/.pio/libdeps/esp32dev/Rtc_Pcf8563;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/Wire/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/newlib/platform_include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/freertos/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/freertos/include/esp_additions/freertos;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/freertos/port/xtensa/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/freertos/include/esp_additions;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_hw_support/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_hw_support/include/soc;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_hw_support/include/soc/esp32;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_hw_support/port/esp32;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_hw_support/port/esp32/private_include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/heap/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/log/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/lwip/include/apps;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/lwip/include/apps/sntp;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/lwip/lwip/src/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/lwip/port/esp32/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/lwip/port/esp32/include/arch;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/soc/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/soc/esp32;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/soc/esp32/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/hal/esp32/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/hal/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/hal/platform_port/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_rom/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_rom/include/esp32;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_rom/esp32;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_common/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_system/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_system/port/soc;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_system/port/public_compat;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp32/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/xtensa/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/xtensa/esp32/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/driver/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/driver/esp32/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_pm/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_ringbuf/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/efuse/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/efuse/esp32/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/vfs/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_wifi/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_event/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_netif/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_eth/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/tcpip_adapter/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_phy/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_phy/esp32/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_ipc/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/app_trace/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_timer/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/mbedtls/port/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/mbedtls/mbedtls/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/mbedtls/esp_crt_bundle/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/app_update/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/spi_flash/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/bootloader_support/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/nvs_flash/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/pthread/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_gdbstub/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_gdbstub/xtensa;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_gdbstub/esp32;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espcoredump/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espcoredump/include/port/xtensa;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/wpa_supplicant/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/wpa_supplicant/port/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/wpa_supplicant/esp_supplicant/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/ieee802154/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/console;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/asio/asio/asio/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/asio/port/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/bt/common/osi/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/bt/include/esp32/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/bt/common/api/include/api;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/bt/common/btc/profile/esp/blufi/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/bt/common/btc/profile/esp/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/bt/host/bluedroid/api/include/api;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/bt/esp_ble_mesh/mesh_common/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/bt/esp_ble_mesh/mesh_common/tinycrypt/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/bt/esp_ble_mesh/mesh_core;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/bt/esp_ble_mesh/mesh_core/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/bt/esp_ble_mesh/mesh_core/storage;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/bt/esp_ble_mesh/btc/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/bt/esp_ble_mesh/mesh_models/common/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/bt/esp_ble_mesh/mesh_models/client/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/bt/esp_ble_mesh/mesh_models/server/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/bt/esp_ble_mesh/api/core/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/bt/esp_ble_mesh/api/models/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/bt/esp_ble_mesh/api;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/cbor/port/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/unity/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/unity/unity/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/cmock/CMock/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/coap/port/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/coap/libcoap/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/nghttp/port/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/nghttp/nghttp2/lib/includes;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp-tls;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp-tls/esp-tls-crypto;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_adc_cal/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_hid/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/tcp_transport/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_http_client/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_http_server/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_https_ota/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_https_server/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_lcd/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_lcd/interface;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/protobuf-c/protobuf-c;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/protocomm/include/common;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/protocomm/include/security;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/protocomm/include/transports;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/mdns/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_local_ctrl/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/sdmmc/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_serial_slave_link/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_websocket_client/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/expat/expat/expat/lib;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/expat/port/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/wear_levelling/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/fatfs/diskio;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/fatfs/vfs;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/fatfs/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/freemodbus/freemodbus/common/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/idf_test/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/idf_test/include/esp32;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/jsmn/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/json/cJSON;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/libsodium/libsodium/src/libsodium/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/libsodium/port_include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/mqtt/esp-mqtt/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/openssl/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/perfmon/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/spiffs/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/ulp/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/wifi_provisioning/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/rmaker_common/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_diagnostics/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/rtc_store/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_insights/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/json_parser/upstream/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/json_parser/upstream;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/json_generator/upstream;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_schedule/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espressif__esp_secure_cert_mgr/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_rainmaker/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/gpio_button/button/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/qrcode/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/ws2812_led;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp_littlefs/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp-dl/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp-dl/include/tool;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp-dl/include/typedef;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp-dl/include/image;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp-dl/include/math;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp-dl/include/nn;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp-dl/include/layer;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp-dl/include/detect;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp-dl/include/model_zoo;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp32-camera/driver/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/esp32-camera/conversions/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espressif__esp-dsp/modules/dotprod/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espressif__esp-dsp/modules/support/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espressif__esp-dsp/modules/support/mem/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espressif__esp-dsp/modules/windows/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espressif__esp-dsp/modules/windows/hann/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espressif__esp-dsp/modules/windows/blackman/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espressif__esp-dsp/modules/windows/blackman_harris/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espressif__esp-dsp/modules/windows/blackman_nuttall/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espressif__esp-dsp/modules/windows/nuttall/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espressif__esp-dsp/modules/windows/flat_top/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espressif__esp-dsp/modules/iir/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espressif__esp-dsp/modules/fir/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espressif__esp-dsp/modules/math/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espressif__esp-dsp/modules/math/add/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espressif__esp-dsp/modules/math/sub/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espressif__esp-dsp/modules/math/mul/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espressif__esp-dsp/modules/math/addc/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espressif__esp-dsp/modules/math/mulc/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espressif__esp-dsp/modules/math/sqrt/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espressif__esp-dsp/modules/matrix/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espressif__esp-dsp/modules/fft/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espressif__esp-dsp/modules/dct/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espressif__esp-dsp/modules/conv/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espressif__esp-dsp/modules/common/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espressif__esp-dsp/modules/kalman/ekf/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/espressif__esp-dsp/modules/kalman/ekf_imu13states/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/include/fb_gfx/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32/dio_qspi/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/cores/esp32;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/variants/esp32;D:/source/Watchy/.pio/libdeps/esp32dev/WiFiManager;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/ArduinoOTA/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/AsyncUDP/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/BluetoothSerial/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/EEPROM/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/ESP32/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/ESPmDNS/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/Ethernet/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/FFat/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/HTTPUpdate/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/HTTPUpdateServer/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/I2S/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/Insights/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/LittleFS/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/NetBIOS/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/Preferences/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/RainMaker/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/SD/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/SD_MMC/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/SPIFFS/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/SimpleBLE/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/Ticker/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/USB/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/WiFiProv/src;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/toolchain-xtensa-esp32/xtensa-esp32-elf/include/c++/8.4.0;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/toolchain-xtensa-esp32/xtensa-esp32-elf/include/c++/8.4.0/xtensa-esp32-elf;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/toolchain-xtensa-esp32/lib/gcc/xtensa-esp32-elf/8.4.0/include;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/toolchain-xtensa-esp32/lib/gcc/xtensa-esp32-elf/8.4.0/include-fixed;$(HOMEDRIVE)$(HOMEPATH)/.platformio/packages/toolchain-xtensa-esp32/xtensa-esp32-elf/include</NMakeIncludeSearchPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ItemGroup>
+    <None Include="platformio.ini" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src/main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/Main.ino">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/README.md">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src/settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src/WatchFace/Fonts/DSEG7_Classic_Bold_25.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src/WatchFace/Fonts/DSEG7_Classic_Regular_15.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src/WatchFace/Fonts/DSEG7_Classic_Regular_39.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src/WatchFace/Fonts/Font_Big.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src/WatchFace/Fonts/Seven_Segment10pt7b.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/7_SEG.bin">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/7_SEG_LIGHT.bin">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/7_SEG_OTA.ino.esp32.bin">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/Dusk2Dawn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src/WatchFace/Watchy_7_SEG/Dusk2Dawn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src/WatchFace/Watchy_7_SEG/icons.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/LICENSE">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/moonPhaser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src/WatchFace/Watchy_7_SEG/moonPhaser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/README.md">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/0.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/1.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/2.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/2_7_SEG_Light - 副本 (2).png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/2_7_SEG_Light - 副本 (3) - 副本.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/2_7_SEG_Light - 副本 (3).png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/2_7_SEG_Light - 副本 (4).png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/2_7_SEG_Light - 副本 (5).png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/2_7_SEG_Light - 副本.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/2_7_SEG_Light.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/2_7_SEG_Light.psd">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/2_7_SEG_Light10.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/2_7_SEG_Light13.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/2_7_SEG_Light3.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/2_7_SEG_Light_fe.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/2_7_SEG_Light_ff.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/2_7_SEG_Light_fg.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/2_7_SEG_Light_fi.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/2_7_SEG_Light_oo.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/2_7_SEG_Light_show.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/3.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/4.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/5.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/6.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/7.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/8.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/9.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/am.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/arr.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/dd_0.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/dd_1.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/dd_2.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/dd_3.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/dd_4.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/dd_5.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/dd_6.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/dd_7.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/dd_8.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/dd_9.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/fd_0.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/fd_1.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/fd_2.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/fd_3.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/fd_4.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/fd_5.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/fd_6.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/fd_7.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/fd_8.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/fd_9.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/img.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/luna sample.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/luna.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/luna.psd">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/luna0 - 副本 - 副本 (2).png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/luna0 - 副本 - 副本 (3).png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/luna0 - 副本 - 副本.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/luna0 - 副本 - 副本2.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/luna0.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/luna1.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/luna10.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/luna11.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/luna12.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/luna16 - 副本.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/luna2.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/luna3.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/luna4.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/luna5.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/luna6.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/luna7.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/luna8.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/luna9.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/moon1.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/moon10.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/moon11.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/moon12.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/moon2.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/moon3.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/moon4.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/moon5.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/moon6.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/moon7.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/moon8.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/moon9.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/pic.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/pm.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/Snipaste_2023-07-05_00-37-08.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/Snipaste_2023-07-05_21-21-26.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/下载 (1).png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/下载 (2).png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/下载 (3).png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/下载 (4).png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/下载 (5).png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_7_SEG/assets/下载.png">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/WatchFace/Watchy_Big/WatchyBig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src/WatchFace/Watchy_Big/WatchyBig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

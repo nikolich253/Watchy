@@ -1,6 +1,9 @@
 #ifndef SETTINGS_H
 #define SETTINGS_H
 
+#include <Arduino.h>
+#include <Watchy.h>
+
 //Weather Settings
 // #define CITY_ID "5128581" //New York City https://openweathermap.org/current#cityid
 #define CITY_ID "538836"  // Kurganinsk https://openweathermap.org/current#cityid
@@ -39,6 +42,8 @@ watchySettings settings{
     .gmtOffset = GMT_OFFSET_SEC,
     .vibrateOClock = true,
     .darkMode = false,
+    .hours_am_pm = false,
+    .faceMode = MAIN_BIG_FACE
 };
 
 #endif

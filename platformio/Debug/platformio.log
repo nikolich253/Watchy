@@ -1,0 +1,176 @@
+﻿  Processing esp32dev (platform: espressif32 @ ~6.6.0; board: esp32dev; framework: arduino)
+  --------------------------------------------------------------------------------
+  Verbose mode can be enabled via `-v, --verbose` option
+  CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/esp32dev.html
+  PLATFORM: Espressif 32 (6.6.0) > Espressif ESP32 Dev Module
+  HARDWARE: ESP32 240MHz, 320KB RAM, 4MB Flash
+  DEBUG: Current (cmsis-dap) External (cmsis-dap, esp-bridge, esp-prog, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+  PACKAGES: 
+   - framework-arduinoespressif32 @ 3.20014.231204 (2.0.14) 
+   - tool-esptoolpy @ 1.40501.0 (4.5.1) 
+   - toolchain-xtensa-esp32 @ 8.4.0+2021r2-patch5
+  Converting Main.ino
+  LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+  LDF Modes: Finder ~ deep+, Compatibility ~ soft
+  Found 44 compatible libraries
+  Scanning dependencies...
+  Dependency Graph
+  |-- Rtc_Pcf8563 @ 0.0.0+sha.fd08d9b
+  |-- Watchy @ 1.4.14
+  |-- WiFiManager @ 2.0.11-beta+sha.13b4307
+  |-- WiFi @ 2.0.0
+  |-- Update @ 2.0.0
+  |-- WebServer @ 2.0.0
+  |-- DNSServer @ 2.0.0
+  |-- HTTPClient @ 2.0.0
+  |-- WiFiClientSecure @ 2.0.0
+  |-- NTPClient @ 3.2.1
+  |-- Arduino_JSON @ 0.2.0
+  |-- GxEPD2 @ 1.6.4
+  |-- Adafruit GFX Library @ 1.12.1
+  |-- Adafruit BusIO @ 1.17.1
+  |-- Wire @ 2.0.0
+  |-- SPI @ 2.0.0
+  |-- ESP32 BLE Arduino @ 2.0.0
+  |-- DS3232RTC @ 2.0.1
+  |-- Time @ 1.6.1
+  Building in release mode
+  Compiling .pio\build\esp32dev\src\Main.ino.cpp.o
+  Compiling .pio\build\esp32dev\src\WatchFace\Watchy_7_SEG\Dusk2Dawn.cpp.o
+  Compiling .pio\build\esp32dev\src\WatchFace\Watchy_7_SEG\Watchy_7_SEG.cpp.o
+  Compiling .pio\build\esp32dev\src\WatchFace\Watchy_7_SEG\moonPhaser.cpp.o
+  Compiling .pio\build\esp32dev\src\WatchFace\Watchy_Big\WatchyBig.cpp.o
+  Compiling .pio\build\esp32dev\src\main.cpp.o
+  Building .pio\build\esp32dev\bootloader.bin
+  Generating partitions .pio\build\esp32dev\partitions.bin
+  esptool.py v4.5.1
+  Creating esp32 image...
+  Merged 1 ELF section
+  Successfully created esp32 image.
+  Compiling .pio\build\esp32dev\libf94\Wire\Wire.cpp.o
+  Compiling .pio\build\esp32dev\lib212\Rtc_Pcf8563\Rtc_Pcf8563.cpp.o
+  Compiling .pio\build\esp32dev\libc10\BLE\BLE2902.cpp.o
+  Compiling .pio\build\esp32dev\libc10\BLE\BLE2904.cpp.o
+  Compiling .pio\build\esp32dev\libc10\BLE\BLEAddress.cpp.o
+  Compiling .pio\build\esp32dev\libc10\BLE\BLEAdvertisedDevice.cpp.o
+  Compiling .pio\build\esp32dev\libc10\BLE\BLEAdvertising.cpp.o
+  Compiling .pio\build\esp32dev\libc10\BLE\BLEBeacon.cpp.o
+  Compiling .pio\build\esp32dev\libc10\BLE\BLECharacteristic.cpp.o
+  Compiling .pio\build\esp32dev\libc10\BLE\BLECharacteristicMap.cpp.o
+  Archiving .pio\build\esp32dev\libf94\libWire.a
+  Compiling .pio\build\esp32dev\libc10\BLE\BLEClient.cpp.o
+  Archiving .pio\build\esp32dev\lib212\libRtc_Pcf8563.a
+  Compiling .pio\build\esp32dev\libc10\BLE\BLEDescriptor.cpp.o
+  Compiling .pio\build\esp32dev\libc10\BLE\BLEDescriptorMap.cpp.o
+  In file included from .pio/libdeps/esp32dev/Watchy/src/Display.h:21,
+                   from .pio/libdeps/esp32dev/Watchy/src/Watchy.h:14,
+                   from src/main.h:4,
+                   from D:/source/Watchy/src/Main.ino:1:
+  .pio/libdeps/esp32dev/Watchy/src/config.h:47:17: note: #pragma message: Please install the latest ESP32 Arduino Core (2.0.5+) and choose Watchy as the target board
+   #pragma message "Please install the latest ESP32 Arduino Core (2.0.5+) and choose Watchy as the target board"
+                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  .pio/libdeps/esp32dev/Watchy/src/config.h:48:17: note: #pragma message: Hardware revision is not defined at the project level, please define in config.h. Defaulting to ARDUINO_WATCHY_V20
+   #pragma message "Hardware revision is not defined at the project level, please define in config.h. Defaulting to ARDUINO_WATCHY_V20"
+                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  In file included from .pio/libdeps/esp32dev/Watchy/src/Display.h:21,
+                   from .pio/libdeps/esp32dev/Watchy/src/Watchy.h:14,
+                   from src/WatchFace/Watchy_Big/WatchyBig.h:5,
+                   from src/WatchFace/Watchy_Big/WatchyBig.cpp:1:
+  .pio/libdeps/esp32dev/Watchy/src/config.h:47:17: note: #pragma message: Please install the latest ESP32 Arduino Core (2.0.5+) and choose Watchy as the target board
+   #pragma message "Please install the latest ESP32 Arduino Core (2.0.5+) and choose Watchy as the target board"
+                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  .pio/libdeps/esp32dev/Watchy/src/config.h:48:17: note: #pragma message: Hardware revision is not defined at the project level, please define in config.h. Defaulting to ARDUINO_WATCHY_V20
+   #pragma message "Hardware revision is not defined at the project level, please define in config.h. Defaulting to ARDUINO_WATCHY_V20"
+                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  In file included from .pio/libdeps/esp32dev/Watchy/src/Display.h:21,
+                   from .pio/libdeps/esp32dev/Watchy/src/Watchy.h:14,
+                   from src/main.h:4,
+                   from src/main.cpp:1:
+  .pio/libdeps/esp32dev/Watchy/src/config.h:47:17: note: #pragma message: Please install the latest ESP32 Arduino Core (2.0.5+) and choose Watchy as the target board
+   #pragma message "Please install the latest ESP32 Arduino Core (2.0.5+) and choose Watchy as the target board"
+                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  .pio/libdeps/esp32dev/Watchy/src/config.h:48:17: note: #pragma message: Hardware revision is not defined at the project level, please define in config.h. Defaulting to ARDUINO_WATCHY_V20
+   #pragma message "Hardware revision is not defined at the project level, please define in config.h. Defaulting to ARDUINO_WATCHY_V20"
+                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  In file included from .pio/libdeps/esp32dev/Watchy/src/Display.h:21,
+                   from .pio/libdeps/esp32dev/Watchy/src/Watchy.h:14,
+                   from src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.h:4,
+                   from src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:1:
+  .pio/libdeps/esp32dev/Watchy/src/config.h:47:17: note: #pragma message: Please install the latest ESP32 Arduino Core (2.0.5+) and choose Watchy as the target board
+   #pragma message "Please install the latest ESP32 Arduino Core (2.0.5+) and choose Watchy as the target board"
+                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  .pio/libdeps/esp32dev/Watchy/src/config.h:48:17: note: #pragma message: Hardware revision is not defined at the project level, please define in config.h. Defaulting to ARDUINO_WATCHY_V20
+   #pragma message "Hardware revision is not defined at the project level, please define in config.h. Defaulting to ARDUINO_WATCHY_V20"
+                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  In file included from src/main.h:7,
+                   from D:/source/Watchy/src/Main.ino:1:
+src/settings.h(44,1): error G54EF5B41: 'watchySettings' has no non-static data member named 'watchFaceMode'
+   };
+   ^
+  D:/source/Watchy/src/Main.ino: In function 'void setup()':
+D:/source/Watchy/src/Main.ino(16,5): error GAA449DFF: 'watchyTimer' was not declared in this scope
+       watchyTimer = xTimerCreate(
+       ^~~~~~~~~~~
+  D:/source/Watchy/src/Main.ino:16:5: note: suggested alternative: 'watchy'
+       watchyTimer = xTimerCreate(
+       ^~~~~~~~~~~
+       watchy
+  In file included from src/main.h:7,
+                   from src/main.cpp:1:
+src/settings.h(44,1): error G54EF5B41: 'watchySettings' has no non-static data member named 'watchFaceMode'
+   };
+   ^
+src/main.cpp(3,11): error G67AE7AB5: use of deleted function 'WatchyBig::WatchyBig()'
+   WatchyBig watchyBig;
+             ^~~~~~~~~
+  In file included from src/main.h:5,
+                   from src/main.cpp:1:
+  src/WatchFace/Watchy_Big/WatchyBig.h:9:7: note: 'WatchyBig::WatchyBig()' is implicitly deleted because the default definition would be ill-formed:
+   class WatchyBig : public Watchy {
+         ^~~~~~~~~
+src/WatchFace/Watchy_Big/WatchyBig.h(9,7): error GAF447572: no matching function for call to 'Watchy::Watchy()'
+  In file included from src/main.h:4,
+                   from src/main.cpp:1:
+  .pio/libdeps/esp32dev/Watchy/src/Watchy.h:94:12: note: candidate: 'Watchy::Watchy(const watchySettings&)'
+     explicit Watchy(const watchySettings &s) : settings(s) {} // constructor
+              ^~~~~~
+  .pio/libdeps/esp32dev/Watchy/src/Watchy.h:94:12: note:   candidate expects 1 argument, 0 provided
+  .pio/libdeps/esp32dev/Watchy/src/Watchy.h:82:7: note: candidate: 'Watchy::Watchy(const Watchy&)'
+   class Watchy {
+         ^~~~~~
+  .pio/libdeps/esp32dev/Watchy/src/Watchy.h:82:7: note:   candidate expects 1 argument, 0 provided
+  .pio/libdeps/esp32dev/Watchy/src/Watchy.h:82:7: note: candidate: 'Watchy::Watchy(Watchy&&)'
+  .pio/libdeps/esp32dev/Watchy/src/Watchy.h:82:7: note:   candidate expects 1 argument, 0 provided
+src/main.cpp(4,12): error G67AE7AB5: use of deleted function 'Watchy7SEG::Watchy7SEG()'
+   Watchy7SEG watchy7Seg;
+              ^~~~~~~~~~
+  In file included from src/main.h:6,
+                   from src/main.cpp:1:
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.h:13:7: note: 'Watchy7SEG::Watchy7SEG()' is implicitly deleted because the default definition would be ill-formed:
+   class Watchy7SEG : public Watchy{
+         ^~~~~~~~~~
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.h(13,7): error GAF447572: no matching function for call to 'Watchy::Watchy()'
+  In file included from src/main.h:4,
+                   from src/main.cpp:1:
+  .pio/libdeps/esp32dev/Watchy/src/Watchy.h:94:12: note: candidate: 'Watchy::Watchy(const watchySettings&)'
+     explicit Watchy(const watchySettings &s) : settings(s) {} // constructor
+              ^~~~~~
+  .pio/libdeps/esp32dev/Watchy/src/Watchy.h:94:12: note:   candidate expects 1 argument, 0 provided
+  .pio/libdeps/esp32dev/Watchy/src/Watchy.h:82:7: note: candidate: 'Watchy::Watchy(const Watchy&)'
+   class Watchy {
+         ^~~~~~
+  .pio/libdeps/esp32dev/Watchy/src/Watchy.h:82:7: note:   candidate expects 1 argument, 0 provided
+  .pio/libdeps/esp32dev/Watchy/src/Watchy.h:82:7: note: candidate: 'Watchy::Watchy(Watchy&&)'
+  .pio/libdeps/esp32dev/Watchy/src/Watchy.h:82:7: note:   candidate expects 1 argument, 0 provided
+src/main.cpp(10,6): error G7FB48127: redefinition of 'void timerCallback(TimerHandle_t)'
+   void timerCallback(TimerHandle_t xTimer)
+        ^~~~~~~~~~~~~
+  In file included from src/main.cpp:1:
+  src/main.h:22:6: note: 'void timerCallback(TimerHandle_t)' previously defined here
+   void timerCallback(TimerHandle_t xTimer){}
+        ^~~~~~~~~~~~~
+  *** [.pio\build\esp32dev\src\Main.ino.cpp.o] Error 1
+  Compiling .pio\build\esp32dev\libc10\BLE\BLEDevice.cpp.o
+  *** [.pio\build\esp32dev\src\main.cpp.o] Error 1
+  ========================= [FAILED] Took 21.30 seconds =========================
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.MakeFile.Targets(45,5): error MSB3073: выход из команды "platformio -f -c visualstudio run" с кодом 1.

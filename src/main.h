@@ -2,7 +2,7 @@
 #define MAIN_H
 
 #include <Watchy.h>
-#include "settings.h"
+
 #include "WatchFace/Watchy_Big/WatchyBig.h"
 #include "WatchFace/Watchy_7_SEG/Watchy_7_SEG.h"
 
@@ -16,10 +16,6 @@
 #include "WatchFace/Fonts/DSEG7_Classic_Regular_15.h"
 #include "WatchFace/Fonts/DSEG7_Classic_Bold_25.h"
 #include "WatchFace/Fonts/DSEG7_Classic_Regular_39.h"
-
-RTC_DATA_ATTR bool light = true;
-RTC_DATA_ATTR int face = 0;
-RTC_DATA_ATTR int timeoutWatchFace = 0;
 
 typedef enum showFaceMode
 {
@@ -43,37 +39,34 @@ typedef enum buttons
     MENU_BTN,
 } buttons;
 
+typedef struct watchyFaceParams
+{
+    buttons lastPressedButton;
+    showFaceMode sfm;
+    face_mode current_face_mode;
+    bool darkMode;
+    bool hours_am_pm;
+    TimerHandle_t watchyTimerFace;
+    TimerHandle_t watchyTimerButton;
+} watchyFaceParams;
+
+
 void timerFaceCallback(TimerHandle_t xTimer);
 void timerButtonCallback(TimerHandle_t xTimer);
-
-
-
 
 class WatchyFace : public Watchy
 {
     using Watchy::Watchy;
 
 public:
+    static watchyFaceParams wf_params;
     void init();
-    void drawSimpleFace();
-    void showWatchFace(bool partialRefresh);
-    void drawWatchFace();
-    void drawTime();
-    void drawDate();
-    void drawSteps();
-    void drawWeather();
-    void drawBattery();
+    void drawSimpleWatchFace();
+    void drawDetailWatchFace();
 
-    //        void drawWeather();
-    //        void drawEva();
-    void drawLine();
-    void drawFiel();
-    void drawMoon();
-    void drawSun();
+    void showWatchFace(bool partialRefresh);
 
     virtual void handleButtonPress();
-
-
 };
 
 #endif

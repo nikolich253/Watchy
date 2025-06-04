@@ -15,6 +15,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="platformio.ini" />
+    <None Include="cpp.hint" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src/main.cpp">

@@ -36,56 +36,25 @@
   |-- Time @ 1.6.1
   Building in release mode
   Compiling .pio\build\esp32dev\src\Main.ino.cpp.o
-  Compiling .pio\build\esp32dev\src\WatchFace\Watchy_7_SEG\Dusk2Dawn.cpp.o
   Compiling .pio\build\esp32dev\src\WatchFace\Watchy_7_SEG\Watchy_7_SEG.cpp.o
-  Compiling .pio\build\esp32dev\src\WatchFace\Watchy_7_SEG\moonPhaser.cpp.o
   Compiling .pio\build\esp32dev\src\WatchFace\Watchy_Big\WatchyBig.cpp.o
   Compiling .pio\build\esp32dev\src\main.cpp.o
-  Building .pio\build\esp32dev\bootloader.bin
-  Generating partitions .pio\build\esp32dev\partitions.bin
-  esptool.py v4.5.1
-  Creating esp32 image...
-  Merged 1 ELF section
-  Successfully created esp32 image.
-  Compiling .pio\build\esp32dev\libf94\Wire\Wire.cpp.o
-  Compiling .pio\build\esp32dev\lib212\Rtc_Pcf8563\Rtc_Pcf8563.cpp.o
-  Compiling .pio\build\esp32dev\libc10\BLE\BLE2902.cpp.o
-  Compiling .pio\build\esp32dev\libc10\BLE\BLE2904.cpp.o
-  Compiling .pio\build\esp32dev\libc10\BLE\BLEAddress.cpp.o
-  Compiling .pio\build\esp32dev\libc10\BLE\BLEAdvertisedDevice.cpp.o
-  Compiling .pio\build\esp32dev\libc10\BLE\BLEAdvertising.cpp.o
-  Compiling .pio\build\esp32dev\libc10\BLE\BLEBeacon.cpp.o
-  Compiling .pio\build\esp32dev\libc10\BLE\BLECharacteristic.cpp.o
-  Compiling .pio\build\esp32dev\libc10\BLE\BLECharacteristicMap.cpp.o
   Archiving .pio\build\esp32dev\libf94\libWire.a
-  Compiling .pio\build\esp32dev\libc10\BLE\BLEClient.cpp.o
   Archiving .pio\build\esp32dev\lib212\libRtc_Pcf8563.a
-  Compiling .pio\build\esp32dev\libc10\BLE\BLEDescriptor.cpp.o
-  Compiling .pio\build\esp32dev\libc10\BLE\BLEDescriptorMap.cpp.o
+  Archiving .pio\build\esp32dev\libc10\libBLE.a
+  Archiving .pio\build\esp32dev\lib976\libSPI.a
+  Compiling .pio\build\esp32dev\libbc2\GxEPD2\epd4c\GxEPD2_290c_GDEY029F51H.cpp.o
+  Compiling .pio\build\esp32dev\libbc2\GxEPD2\epd4c\GxEPD2_300c.cpp.o
+  Compiling .pio\build\esp32dev\libbc2\GxEPD2\epd4c\GxEPD2_420c_GDEY0420F51.cpp.o
+  Compiling .pio\build\esp32dev\libbc2\GxEPD2\epd4c\GxEPD2_437c.cpp.o
+  Compiling .pio\build\esp32dev\libbc2\GxEPD2\epd7c\GxEPD2_565c.cpp.o
+  Compiling .pio\build\esp32dev\libbc2\GxEPD2\epd7c\GxEPD2_565c_GDEP0565D90.cpp.o
+  Compiling .pio\build\esp32dev\libbc2\GxEPD2\epd7c\GxEPD2_730c_ACeP_730.cpp.o
+  Compiling .pio\build\esp32dev\libbc2\GxEPD2\epd7c\GxEPD2_730c_GDEP073E01.cpp.o
   In file included from .pio/libdeps/esp32dev/Watchy/src/Display.h:21,
                    from .pio/libdeps/esp32dev/Watchy/src/Watchy.h:14,
                    from src/main.h:4,
                    from D:/source/Watchy/src/Main.ino:1:
-  .pio/libdeps/esp32dev/Watchy/src/config.h:47:17: note: #pragma message: Please install the latest ESP32 Arduino Core (2.0.5+) and choose Watchy as the target board
-   #pragma message "Please install the latest ESP32 Arduino Core (2.0.5+) and choose Watchy as the target board"
-                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  .pio/libdeps/esp32dev/Watchy/src/config.h:48:17: note: #pragma message: Hardware revision is not defined at the project level, please define in config.h. Defaulting to ARDUINO_WATCHY_V20
-   #pragma message "Hardware revision is not defined at the project level, please define in config.h. Defaulting to ARDUINO_WATCHY_V20"
-                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  In file included from .pio/libdeps/esp32dev/Watchy/src/Display.h:21,
-                   from .pio/libdeps/esp32dev/Watchy/src/Watchy.h:14,
-                   from src/WatchFace/Watchy_Big/WatchyBig.h:5,
-                   from src/WatchFace/Watchy_Big/WatchyBig.cpp:1:
-  .pio/libdeps/esp32dev/Watchy/src/config.h:47:17: note: #pragma message: Please install the latest ESP32 Arduino Core (2.0.5+) and choose Watchy as the target board
-   #pragma message "Please install the latest ESP32 Arduino Core (2.0.5+) and choose Watchy as the target board"
-                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  .pio/libdeps/esp32dev/Watchy/src/config.h:48:17: note: #pragma message: Hardware revision is not defined at the project level, please define in config.h. Defaulting to ARDUINO_WATCHY_V20
-   #pragma message "Hardware revision is not defined at the project level, please define in config.h. Defaulting to ARDUINO_WATCHY_V20"
-                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  In file included from .pio/libdeps/esp32dev/Watchy/src/Display.h:21,
-                   from .pio/libdeps/esp32dev/Watchy/src/Watchy.h:14,
-                   from src/main.h:4,
-                   from src/main.cpp:1:
   .pio/libdeps/esp32dev/Watchy/src/config.h:47:17: note: #pragma message: Please install the latest ESP32 Arduino Core (2.0.5+) and choose Watchy as the target board
    #pragma message "Please install the latest ESP32 Arduino Core (2.0.5+) and choose Watchy as the target board"
                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -102,75 +71,1253 @@
   .pio/libdeps/esp32dev/Watchy/src/config.h:48:17: note: #pragma message: Hardware revision is not defined at the project level, please define in config.h. Defaulting to ARDUINO_WATCHY_V20
    #pragma message "Hardware revision is not defined at the project level, please define in config.h. Defaulting to ARDUINO_WATCHY_V20"
                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  In file included from src/main.h:7,
+  In file included from .pio/libdeps/esp32dev/Watchy/src/Display.h:21,
+                   from .pio/libdeps/esp32dev/Watchy/src/Watchy.h:14,
+                   from src/main.h:4,
+                   from src/main.cpp:1:
+  .pio/libdeps/esp32dev/Watchy/src/config.h:47:17: note: #pragma message: Please install the latest ESP32 Arduino Core (2.0.5+) and choose Watchy as the target board
+   #pragma message "Please install the latest ESP32 Arduino Core (2.0.5+) and choose Watchy as the target board"
+                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  .pio/libdeps/esp32dev/Watchy/src/config.h:48:17: note: #pragma message: Hardware revision is not defined at the project level, please define in config.h. Defaulting to ARDUINO_WATCHY_V20
+   #pragma message "Hardware revision is not defined at the project level, please define in config.h. Defaulting to ARDUINO_WATCHY_V20"
+                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  In file included from .pio/libdeps/esp32dev/Watchy/src/Display.h:21,
+                   from .pio/libdeps/esp32dev/Watchy/src/Watchy.h:14,
+                   from src/WatchFace/Watchy_Big/WatchyBig.h:5,
+                   from src/WatchFace/Watchy_Big/WatchyBig.cpp:1:
+  .pio/libdeps/esp32dev/Watchy/src/config.h:47:17: note: #pragma message: Please install the latest ESP32 Arduino Core (2.0.5+) and choose Watchy as the target board
+   #pragma message "Please install the latest ESP32 Arduino Core (2.0.5+) and choose Watchy as the target board"
+                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  .pio/libdeps/esp32dev/Watchy/src/config.h:48:17: note: #pragma message: Hardware revision is not defined at the project level, please define in config.h. Defaulting to ARDUINO_WATCHY_V20
+   #pragma message "Hardware revision is not defined at the project level, please define in config.h. Defaulting to ARDUINO_WATCHY_V20"
+                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  In file included from src/main.h:6,
                    from D:/source/Watchy/src/Main.ino:1:
-src/settings.h(44,1): error G54EF5B41: 'watchySettings' has no non-static data member named 'watchFaceMode'
-   };
-   ^
-  D:/source/Watchy/src/Main.ino: In function 'void setup()':
-D:/source/Watchy/src/Main.ino(16,5): error GAA449DFF: 'watchyTimer' was not declared in this scope
-       watchyTimer = xTimerCreate(
-       ^~~~~~~~~~~
-  D:/source/Watchy/src/Main.ino:16:5: note: suggested alternative: 'watchy'
-       watchyTimer = xTimerCreate(
-       ^~~~~~~~~~~
-       watchy
-  In file included from src/main.h:7,
-                   from src/main.cpp:1:
-src/settings.h(44,1): error G54EF5B41: 'watchySettings' has no non-static data member named 'watchFaceMode'
-   };
-   ^
-src/main.cpp(3,11): error G67AE7AB5: use of deleted function 'WatchyBig::WatchyBig()'
-   WatchyBig watchyBig;
-             ^~~~~~~~~
-  In file included from src/main.h:5,
-                   from src/main.cpp:1:
-  src/WatchFace/Watchy_Big/WatchyBig.h:9:7: note: 'WatchyBig::WatchyBig()' is implicitly deleted because the default definition would be ill-formed:
-   class WatchyBig : public Watchy {
-         ^~~~~~~~~
-src/WatchFace/Watchy_Big/WatchyBig.h(9,7): error GAF447572: no matching function for call to 'Watchy::Watchy()'
-  In file included from src/main.h:4,
-                   from src/main.cpp:1:
-  .pio/libdeps/esp32dev/Watchy/src/Watchy.h:94:12: note: candidate: 'Watchy::Watchy(const watchySettings&)'
-     explicit Watchy(const watchySettings &s) : settings(s) {} // constructor
-              ^~~~~~
-  .pio/libdeps/esp32dev/Watchy/src/Watchy.h:94:12: note:   candidate expects 1 argument, 0 provided
-  .pio/libdeps/esp32dev/Watchy/src/Watchy.h:82:7: note: candidate: 'Watchy::Watchy(const Watchy&)'
-   class Watchy {
-         ^~~~~~
-  .pio/libdeps/esp32dev/Watchy/src/Watchy.h:82:7: note:   candidate expects 1 argument, 0 provided
-  .pio/libdeps/esp32dev/Watchy/src/Watchy.h:82:7: note: candidate: 'Watchy::Watchy(Watchy&&)'
-  .pio/libdeps/esp32dev/Watchy/src/Watchy.h:82:7: note:   candidate expects 1 argument, 0 provided
-src/main.cpp(4,12): error G67AE7AB5: use of deleted function 'Watchy7SEG::Watchy7SEG()'
-   Watchy7SEG watchy7Seg;
-              ^~~~~~~~~~
+src/WatchFace/Watchy_Big/WatchyBig.h(10,6): error G8433048D: 'WatchyFace' has not been declared
+   void WatchyFace::drawSimpleWatchFace();
+        ^~~~~~~~~~
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(18,6): error GAA955314: 'WatchFace' has not been declared
+   void WatchFace::drawDetailWatchFace()
+        ^~~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp: In function 'void drawDetailWatchFace()':
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(20,5): error GA9F25B38: 'display' was not declared in this scope
+       display.fillScreen(darkMode ? GxEPD_BLACK : GxEPD_WHITE);
+       ^~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:20:5: note: suggested alternative: 'delay'
+       display.fillScreen(darkMode ? GxEPD_BLACK : GxEPD_WHITE);
+       ^~~~~~~
+       delay
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(20,24): error GFDB29013: 'darkMode' was not declared in this scope
+       display.fillScreen(darkMode ? GxEPD_BLACK : GxEPD_WHITE);
+                          ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:20:24: note: suggested alternative: 'pinMode'
+       display.fillScreen(darkMode ? GxEPD_BLACK : GxEPD_WHITE);
+                          ^~~~~~~~
+                          pinMode
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp: In function 'void drawTime()':
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(42,5): error GA9F25B38: 'display' was not declared in this scope
+       display.setFont(&DSEG7_Classic_Bold_53);
+       ^~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:42:5: note: suggested alternative: 'delay'
+       display.setFont(&DSEG7_Classic_Bold_53);
+       ^~~~~~~
+       delay
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(45,15): error G7F572552: 'currentTime' was not declared in this scope
+       long ss = currentTime.Hour * 60 + currentTime.Minute;
+                 ^~~~~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:45:15: note: suggested alternative: 'breakTime'
+       long ss = currentTime.Hour * 60 + currentTime.Minute;
+                 ^~~~~~~~~~~
+                 breakTime
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(48,9): error G289120B9: 'settings' was not declared in this scope
+       if (settings.hours_am_pm == false && sh >= 12)
+           ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:48:9: note: suggested alternative: 'sbttons'
+       if (settings.hours_am_pm == false && sh >= 12)
+           ^~~~~~~~
+           sbttons
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(50,40): error GFDB29013: 'darkMode' was not declared in this scope
+           display.fillRect(7, 60, 25, 9, darkMode ? GxEPD_BLACK : GxEPD_WHITE);
+                                          ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:50:40: note: suggested alternative: 'pinMode'
+           display.fillRect(7, 60, 25, 9, darkMode ? GxEPD_BLACK : GxEPD_WHITE);
+                                          ^~~~~~~~
+                                          pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(55,40): error GFDB29013: 'darkMode' was not declared in this scope
+           display.fillRect(7, 60, 25, 9, darkMode  ? GxEPD_BLACK : GxEPD_WHITE);
+                                          ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:55:40: note: suggested alternative: 'pinMode'
+           display.fillRect(7, 60, 25, 9, darkMode  ? GxEPD_BLACK : GxEPD_WHITE);
+                                          ^~~~~~~~
+                                          pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(59,9): error G289120B9: 'settings' was not declared in this scope
+       if (settings.hours_am_pm == false && sh > 12)
+           ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:59:9: note: suggested alternative: 'sbttons'
+       if (settings.hours_am_pm == false && sh > 12)
+           ^~~~~~~~
+           sbttons
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(70,49): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(11, 5, fd_0, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:70:49: note: suggested alternative: 'pinMode'
+           display.drawBitmap(11, 5, fd_0, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+                                                   pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(72,49): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(11, 5, fd_1, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
   In file included from src/main.h:6,
                    from src/main.cpp:1:
-  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.h:13:7: note: 'Watchy7SEG::Watchy7SEG()' is implicitly deleted because the default definition would be ill-formed:
-   class Watchy7SEG : public Watchy{
-         ^~~~~~~~~~
-src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.h(13,7): error GAF447572: no matching function for call to 'Watchy::Watchy()'
-  In file included from src/main.h:4,
-                   from src/main.cpp:1:
-  .pio/libdeps/esp32dev/Watchy/src/Watchy.h:94:12: note: candidate: 'Watchy::Watchy(const watchySettings&)'
-     explicit Watchy(const watchySettings &s) : settings(s) {} // constructor
-              ^~~~~~
-  .pio/libdeps/esp32dev/Watchy/src/Watchy.h:94:12: note:   candidate expects 1 argument, 0 provided
-  .pio/libdeps/esp32dev/Watchy/src/Watchy.h:82:7: note: candidate: 'Watchy::Watchy(const Watchy&)'
-   class Watchy {
-         ^~~~~~
-  .pio/libdeps/esp32dev/Watchy/src/Watchy.h:82:7: note:   candidate expects 1 argument, 0 provided
-  .pio/libdeps/esp32dev/Watchy/src/Watchy.h:82:7: note: candidate: 'Watchy::Watchy(Watchy&&)'
-  .pio/libdeps/esp32dev/Watchy/src/Watchy.h:82:7: note:   candidate expects 1 argument, 0 provided
-src/main.cpp(10,6): error G7FB48127: redefinition of 'void timerCallback(TimerHandle_t)'
-   void timerCallback(TimerHandle_t xTimer)
-        ^~~~~~~~~~~~~
-  In file included from src/main.cpp:1:
-  src/main.h:22:6: note: 'void timerCallback(TimerHandle_t)' previously defined here
-   void timerCallback(TimerHandle_t xTimer){}
-        ^~~~~~~~~~~~~
+src/WatchFace/Watchy_Big/WatchyBig.h(10,6): error G8433048D: 'WatchyFace' has not been declared
+   void WatchyFace::drawSimpleWatchFace();
+        ^~~~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:72:49: note: suggested alternative: 'pinMode'
+           display.drawBitmap(11, 5, fd_1, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+                                                   pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(74,49): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(11, 5, fd_2, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
   *** [.pio\build\esp32dev\src\Main.ino.cpp.o] Error 1
-  Compiling .pio\build\esp32dev\libc10\BLE\BLEDevice.cpp.o
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:74:49: note: suggested alternative: 'pinMode'
+           display.drawBitmap(11, 5, fd_2, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+                                                   pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(76,49): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(11, 5, fd_3, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+  In file included from src/WatchFace/Watchy_Big/WatchyBig.cpp:1:
+src/WatchFace/Watchy_Big/WatchyBig.h(10,6): error G8433048D: 'WatchyFace' has not been declared
+   void WatchyFace::drawSimpleWatchFace();
+        ^~~~~~~~~~
+src/WatchFace/Watchy_Big/WatchyBig.cpp(3,6): error GAA955314: 'WatchFace' has not been declared
+   void WatchFace::drawSimpleWatchFace()
+        ^~~~~~~~~
+  src/WatchFace/Watchy_Big/WatchyBig.cpp: In function 'void drawSimpleWatchFace()':
+src/WatchFace/Watchy_Big/WatchyBig.cpp(5,2): error GA9F25B38: 'display' was not declared in this scope
+    display.fillScreen(settings.darkMode ? GxEPD_BLACK : GxEPD_WHITE);
+    ^~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:76:49: note: suggested alternative: 'pinMode'
+           display.drawBitmap(11, 5, fd_3, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+                                                   pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(78,49): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(11, 5, fd_4, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+  src/WatchFace/Watchy_Big/WatchyBig.cpp:5:2: note: suggested alternative: 'delay'
+    display.fillScreen(settings.darkMode ? GxEPD_BLACK : GxEPD_WHITE);
+    ^~~~~~~
+    delay
+src/WatchFace/Watchy_Big/WatchyBig.cpp(5,21): error G289120B9: 'settings' was not declared in this scope
+    display.fillScreen(settings.darkMode ? GxEPD_BLACK : GxEPD_WHITE);
+                       ^~~~~~~~
+  src/WatchFace/Watchy_Big/WatchyBig.cpp:5:21: note: suggested alternative: 'sbttons'
+    display.fillScreen(settings.darkMode ? GxEPD_BLACK : GxEPD_WHITE);
+                       ^~~~~~~~
+                       sbttons
+  src/WatchFace/Watchy_Big/WatchyBig.cpp: In function 'void drawTime()':
+src/WatchFace/Watchy_Big/WatchyBig.cpp(13,20): error G289120B9: 'settings' was not declared in this scope
+    uint16_t color = (settings.darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                      ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:78:49: note: suggested alternative: 'pinMode'
+           display.drawBitmap(11, 5, fd_4, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+                                                   pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(80,49): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(11, 5, fd_5, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+  src/WatchFace/Watchy_Big/WatchyBig.cpp:13:20: note: suggested alternative: 'sbttons'
+    uint16_t color = (settings.darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                      ^~~~~~~~
+                      sbttons
+src/WatchFace/Watchy_Big/WatchyBig.cpp(16,19): error G7F572552: 'currentTime' was not declared in this scope
+     displayHour = ((currentTime.Hour + 11) % 12) + 1;
+                     ^~~~~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:80:49: note: suggested alternative: 'pinMode'
+           display.drawBitmap(11, 5, fd_5, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+                                                   pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(82,49): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(11, 5, fd_6, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+  src/WatchFace/Watchy_Big/WatchyBig.cpp:16:19: note: suggested alternative: 'breakTime'
+     displayHour = ((currentTime.Hour + 11) % 12) + 1;
+                     ^~~~~~~~~~~
+                     breakTime
+src/WatchFace/Watchy_Big/WatchyBig.cpp(20,17): error G7F572552: 'currentTime' was not declared in this scope
+     displayHour = currentTime.Hour;
+                   ^~~~~~~~~~~
+  src/WatchFace/Watchy_Big/WatchyBig.cpp:20:17: note: suggested alternative: 'breakTime'
+     displayHour = currentTime.Hour;
+                   ^~~~~~~~~~~
+                   breakTime
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:82:49: note: suggested alternative: 'pinMode'
+           display.drawBitmap(11, 5, fd_6, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+                                                   pinMode
+src/WatchFace/Watchy_Big/WatchyBig.cpp(23,13): error G7F572552: 'currentTime' was not declared in this scope
+    drawNumber(currentTime.Minute, 0, 100, color);
+               ^~~~~~~~~~~
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(84,49): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(11, 5, fd_7, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+  src/WatchFace/Watchy_Big/WatchyBig.cpp:23:13: note: suggested alternative: 'breakTime'
+    drawNumber(currentTime.Minute, 0, 100, color);
+               ^~~~~~~~~~~
+               breakTime
+src/WatchFace/Watchy_Big/WatchyBig.cpp(27,3): error GA9F25B38: 'display' was not declared in this scope
+     display.setFont(&DSEG7_Classic_Regular_15);
+     ^~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:84:49: note: suggested alternative: 'pinMode'
+           display.drawBitmap(11, 5, fd_7, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+                                                   pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(86,49): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(11, 5, fd_8, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+  src/WatchFace/Watchy_Big/WatchyBig.cpp:27:3: note: suggested alternative: 'delay'
+     display.setFont(&DSEG7_Classic_Regular_15);
+     ^~~~~~~
+     delay
+  src/WatchFace/Watchy_Big/WatchyBig.cpp: In function 'void drawDigit(uint8_t, uint8_t, uint8_t, uint16_t)':
+src/WatchFace/Watchy_Big/WatchyBig.cpp(46,3): error GA9F25B38: 'display' was not declared in this scope
+     display.drawBitmap(x + segment.x_offset, y + segment.y_offset, segment.bitmap, segment.width, segment.height, color);
+     ^~~~~~~
+  src/WatchFace/Watchy_Big/WatchyBig.cpp:46:3: note: suggested alternative: 'delay'
+     display.drawBitmap(x + segment.x_offset, y + segment.y_offset, segment.bitmap, segment.width, segment.height, color);
+     ^~~~~~~
+     delay
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:86:49: note: suggested alternative: 'pinMode'
+           display.drawBitmap(11, 5, fd_8, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+                                                   pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(88,49): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(11, 5, fd_9, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:88:49: note: suggested alternative: 'pinMode'
+           display.drawBitmap(11, 5, fd_9, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+                                                   pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(91,49): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(55, 5, fd_0, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:91:49: note: suggested alternative: 'pinMode'
+           display.drawBitmap(55, 5, fd_0, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+                                                   pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(93,49): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(55, 5, fd_1, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+src/main.cpp(3,1): error G5FC10EAE: 'Watchy7SEG' does not name a type; did you mean 'WatchyFace'?
+   Watchy7SEG watchy7Seg;
+   ^~~~~~~~~~
+   WatchyFace
+src/main.cpp(22,6): error G6E7A0CD4: no declaration matches 'void WatchyFace::init()'
+   void WatchyFace::init()
+        ^~~~~~~~~~
+  src/main.cpp:22:6: note: no functions named 'void WatchyFace::init()'
+  In file included from src/main.cpp:1:
+  src/main.h:53:7: note: 'class WatchyFace' defined here
+   class WatchyFace : public Watchy
+         ^~~~~~~~~~
+  src/main.cpp: In member function 'virtual void WatchyFace::handleButtonPress()':
+src/main.cpp(60,26): error G54EF5B41: 'watchySettings' {aka 'struct watchySettings'} has no member named 'hours_am_pm'
+                   settings.hours_am_pm = !settings.hours_am_pm;
+                            ^~~~~~~~~~~
+src/main.cpp(60,50): error G54EF5B41: 'watchySettings' {aka 'struct watchySettings'} has no member named 'hours_am_pm'
+                   settings.hours_am_pm = !settings.hours_am_pm;
+                                                    ^~~~~~~~~~~
+src/main.cpp(76,26): error G54EF5B41: 'watchySettings' {aka 'struct watchySettings'} has no member named 'darkMode'
+                   settings.darkMode = !settings.darkMode;
+                            ^~~~~~~~
+src/main.cpp(76,47): error G54EF5B41: 'watchySettings' {aka 'struct watchySettings'} has no member named 'darkMode'
+                   settings.darkMode = !settings.darkMode;
+                                                 ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:93:49: note: suggested alternative: 'pinMode'
+           display.drawBitmap(55, 5, fd_1, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+                                                   pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(95,49): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(55, 5, fd_2, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:95:49: note: suggested alternative: 'pinMode'
+           display.drawBitmap(55, 5, fd_2, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+                                                   pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(97,49): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(55, 5, fd_3, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:97:49: note: suggested alternative: 'pinMode'
+           display.drawBitmap(55, 5, fd_3, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+                                                   pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(99,49): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(55, 5, fd_4, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:99:49: note: suggested alternative: 'pinMode'
+           display.drawBitmap(55, 5, fd_4, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+                                                   pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(101,49): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(55, 5, fd_5, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:101:49: note: suggested alternative: 'pinMode'
+           display.drawBitmap(55, 5, fd_5, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+                                                   pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(103,49): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(55, 5, fd_6, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+  *** [.pio\build\esp32dev\src\WatchFace\Watchy_Big\WatchyBig.cpp.o] Error 1
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:103:49: note: suggested alternative: 'pinMode'
+           display.drawBitmap(55, 5, fd_6, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+                                                   pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(105,49): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(55, 5, fd_7, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:105:49: note: suggested alternative: 'pinMode'
+           display.drawBitmap(55, 5, fd_7, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+                                                   pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(107,49): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(55, 5, fd_8, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:107:49: note: suggested alternative: 'pinMode'
+           display.drawBitmap(55, 5, fd_8, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+                                                   pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(109,49): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(55, 5, fd_9, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
   *** [.pio\build\esp32dev\src\main.cpp.o] Error 1
-  ========================= [FAILED] Took 21.30 seconds =========================
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:109:49: note: suggested alternative: 'pinMode'
+           display.drawBitmap(55, 5, fd_9, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+                                                   pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(112,50): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(111, 5, fd_0, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:112:50: note: suggested alternative: 'pinMode'
+           display.drawBitmap(111, 5, fd_0, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+                                                    pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(114,50): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(111, 5, fd_1, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:114:50: note: suggested alternative: 'pinMode'
+           display.drawBitmap(111, 5, fd_1, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+                                                    pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(116,50): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(111, 5, fd_2, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:116:50: note: suggested alternative: 'pinMode'
+           display.drawBitmap(111, 5, fd_2, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+                                                    pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(118,50): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(111, 5, fd_3, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:118:50: note: suggested alternative: 'pinMode'
+           display.drawBitmap(111, 5, fd_3, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+                                                    pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(120,50): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(111, 5, fd_4, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:120:50: note: suggested alternative: 'pinMode'
+           display.drawBitmap(111, 5, fd_4, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+                                                    pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(122,50): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(111, 5, fd_5, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:122:50: note: suggested alternative: 'pinMode'
+           display.drawBitmap(111, 5, fd_5, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+                                                    pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(124,50): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(111, 5, fd_6, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:124:50: note: suggested alternative: 'pinMode'
+           display.drawBitmap(111, 5, fd_6, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+                                                    pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(126,50): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(111, 5, fd_7, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:126:50: note: suggested alternative: 'pinMode'
+           display.drawBitmap(111, 5, fd_7, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+                                                    pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(128,50): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(111, 5, fd_8, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:128:50: note: suggested alternative: 'pinMode'
+           display.drawBitmap(111, 5, fd_8, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+                                                    pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(130,50): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(111, 5, fd_9, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:130:50: note: suggested alternative: 'pinMode'
+           display.drawBitmap(111, 5, fd_9, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+                                                    pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(133,50): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(155, 5, fd_0, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:133:50: note: suggested alternative: 'pinMode'
+           display.drawBitmap(155, 5, fd_0, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+                                                    pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(135,50): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(155, 5, fd_1, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:135:50: note: suggested alternative: 'pinMode'
+           display.drawBitmap(155, 5, fd_1, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+                                                    pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(137,50): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(155, 5, fd_2, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:137:50: note: suggested alternative: 'pinMode'
+           display.drawBitmap(155, 5, fd_2, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+                                                    pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(139,50): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(155, 5, fd_3, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:139:50: note: suggested alternative: 'pinMode'
+           display.drawBitmap(155, 5, fd_3, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+                                                    pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(141,50): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(155, 5, fd_4, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:141:50: note: suggested alternative: 'pinMode'
+           display.drawBitmap(155, 5, fd_4, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+                                                    pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(143,50): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(155, 5, fd_5, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:143:50: note: suggested alternative: 'pinMode'
+           display.drawBitmap(155, 5, fd_5, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+                                                    pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(145,50): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(155, 5, fd_6, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:145:50: note: suggested alternative: 'pinMode'
+           display.drawBitmap(155, 5, fd_6, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+                                                    pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(147,50): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(155, 5, fd_7, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:147:50: note: suggested alternative: 'pinMode'
+           display.drawBitmap(155, 5, fd_7, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+                                                    pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(149,50): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(155, 5, fd_8, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:149:50: note: suggested alternative: 'pinMode'
+           display.drawBitmap(155, 5, fd_8, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+                                                    pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(151,50): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(155, 5, fd_9, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:151:50: note: suggested alternative: 'pinMode'
+           display.drawBitmap(155, 5, fd_9, 33, 53, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+                                                    pinMode
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp: In function 'void drawDate()':
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(157,5): error GA9F25B38: 'display' was not declared in this scope
+       display.setFont(&Seven_Segment10pt7b);
+       ^~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:157:5: note: suggested alternative: 'delay'
+       display.setFont(&Seven_Segment10pt7b);
+       ^~~~~~~
+       delay
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(162,31): error G7F572552: 'currentTime' was not declared in this scope
+       String dayOfWeek = dayStr(currentTime.Wday);
+                                 ^~~~~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:162:31: note: suggested alternative: 'breakTime'
+       String dayOfWeek = dayStr(currentTime.Wday);
+                                 ^~~~~~~~~~~
+                                 breakTime
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(201,49): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(8, 95, dd_0, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:201:49: note: suggested alternative: 'pinMode'
+           display.drawBitmap(8, 95, dd_0, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+                                                   pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(203,49): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(8, 95, dd_1, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:203:49: note: suggested alternative: 'pinMode'
+           display.drawBitmap(8, 95, dd_1, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+                                                   pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(205,49): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(8, 95, dd_2, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:205:49: note: suggested alternative: 'pinMode'
+           display.drawBitmap(8, 95, dd_2, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+                                                   pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(207,49): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(8, 95, dd_3, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:207:49: note: suggested alternative: 'pinMode'
+           display.drawBitmap(8, 95, dd_3, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+                                                   pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(209,49): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(8, 95, dd_4, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:209:49: note: suggested alternative: 'pinMode'
+           display.drawBitmap(8, 95, dd_4, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+                                                   pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(211,49): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(8, 95, dd_5, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:211:49: note: suggested alternative: 'pinMode'
+           display.drawBitmap(8, 95, dd_5, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+                                                   pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(213,49): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(8, 95, dd_6, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:213:49: note: suggested alternative: 'pinMode'
+           display.drawBitmap(8, 95, dd_6, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+                                                   pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(215,49): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(8, 95, dd_7, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:215:49: note: suggested alternative: 'pinMode'
+           display.drawBitmap(8, 95, dd_7, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+                                                   pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(217,49): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(8, 95, dd_8, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:217:49: note: suggested alternative: 'pinMode'
+           display.drawBitmap(8, 95, dd_8, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+                                                   pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(219,49): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(8, 95, dd_9, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:219:49: note: suggested alternative: 'pinMode'
+           display.drawBitmap(8, 95, dd_9, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+                                                   pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(222,50): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(29, 95, dd_0, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:222:50: note: suggested alternative: 'pinMode'
+           display.drawBitmap(29, 95, dd_0, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+                                                    pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(224,50): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(29, 95, dd_1, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:224:50: note: suggested alternative: 'pinMode'
+           display.drawBitmap(29, 95, dd_1, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+                                                    pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(226,50): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(29, 95, dd_2, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:226:50: note: suggested alternative: 'pinMode'
+           display.drawBitmap(29, 95, dd_2, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+                                                    pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(228,50): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(29, 95, dd_3, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:228:50: note: suggested alternative: 'pinMode'
+           display.drawBitmap(29, 95, dd_3, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+                                                    pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(230,50): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(29, 95, dd_4, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:230:50: note: suggested alternative: 'pinMode'
+           display.drawBitmap(29, 95, dd_4, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+                                                    pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(232,50): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(29, 95, dd_5, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:232:50: note: suggested alternative: 'pinMode'
+           display.drawBitmap(29, 95, dd_5, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+                                                    pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(234,50): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(29, 95, dd_6, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:234:50: note: suggested alternative: 'pinMode'
+           display.drawBitmap(29, 95, dd_6, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+                                                    pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(236,50): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(29, 95, dd_7, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:236:50: note: suggested alternative: 'pinMode'
+           display.drawBitmap(29, 95, dd_7, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+                                                    pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(238,50): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(29, 95, dd_8, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:238:50: note: suggested alternative: 'pinMode'
+           display.drawBitmap(29, 95, dd_8, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+                                                    pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(240,50): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(29, 95, dd_9, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:240:50: note: suggested alternative: 'pinMode'
+           display.drawBitmap(29, 95, dd_9, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+                                                    pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(243,50): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(8, 129, dd_0, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:243:50: note: suggested alternative: 'pinMode'
+           display.drawBitmap(8, 129, dd_0, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+                                                    pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(245,50): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(8, 129, dd_1, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:245:50: note: suggested alternative: 'pinMode'
+           display.drawBitmap(8, 129, dd_1, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+                                                    pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(247,50): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(8, 129, dd_2, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:247:50: note: suggested alternative: 'pinMode'
+           display.drawBitmap(8, 129, dd_2, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+                                                    pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(249,50): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(8, 129, dd_3, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:249:50: note: suggested alternative: 'pinMode'
+           display.drawBitmap(8, 129, dd_3, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+                                                    pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(251,50): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(8, 129, dd_4, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:251:50: note: suggested alternative: 'pinMode'
+           display.drawBitmap(8, 129, dd_4, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+                                                    pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(253,50): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(8, 129, dd_5, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:253:50: note: suggested alternative: 'pinMode'
+           display.drawBitmap(8, 129, dd_5, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+                                                    pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(255,50): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(8, 129, dd_6, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:255:50: note: suggested alternative: 'pinMode'
+           display.drawBitmap(8, 129, dd_6, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+                                                    pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(257,50): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(8, 129, dd_7, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:257:50: note: suggested alternative: 'pinMode'
+           display.drawBitmap(8, 129, dd_7, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+                                                    pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(259,50): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(8, 129, dd_8, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:259:50: note: suggested alternative: 'pinMode'
+           display.drawBitmap(8, 129, dd_8, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+                                                    pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(261,50): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(8, 129, dd_9, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:261:50: note: suggested alternative: 'pinMode'
+           display.drawBitmap(8, 129, dd_9, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+                                                    pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(264,51): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(29, 129, dd_0, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:264:51: note: suggested alternative: 'pinMode'
+           display.drawBitmap(29, 129, dd_0, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+                                                     pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(266,51): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(29, 129, dd_1, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:266:51: note: suggested alternative: 'pinMode'
+           display.drawBitmap(29, 129, dd_1, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+                                                     pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(268,51): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(29, 129, dd_2, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:268:51: note: suggested alternative: 'pinMode'
+           display.drawBitmap(29, 129, dd_2, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+                                                     pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(270,51): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(29, 129, dd_3, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:270:51: note: suggested alternative: 'pinMode'
+           display.drawBitmap(29, 129, dd_3, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+                                                     pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(272,51): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(29, 129, dd_4, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:272:51: note: suggested alternative: 'pinMode'
+           display.drawBitmap(29, 129, dd_4, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+                                                     pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(274,51): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(29, 129, dd_5, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:274:51: note: suggested alternative: 'pinMode'
+           display.drawBitmap(29, 129, dd_5, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+                                                     pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(276,51): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(29, 129, dd_6, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:276:51: note: suggested alternative: 'pinMode'
+           display.drawBitmap(29, 129, dd_6, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+                                                     pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(278,51): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(29, 129, dd_7, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:278:51: note: suggested alternative: 'pinMode'
+           display.drawBitmap(29, 129, dd_7, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+                                                     pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(280,51): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(29, 129, dd_8, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:280:51: note: suggested alternative: 'pinMode'
+           display.drawBitmap(29, 129, dd_8, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+                                                     pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(282,51): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(29, 129, dd_9, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:282:51: note: suggested alternative: 'pinMode'
+           display.drawBitmap(29, 129, dd_9, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+                                                     pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(285,51): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(50, 129, dd_0, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:285:51: note: suggested alternative: 'pinMode'
+           display.drawBitmap(50, 129, dd_0, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+                                                     pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(287,51): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(50, 129, dd_1, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:287:51: note: suggested alternative: 'pinMode'
+           display.drawBitmap(50, 129, dd_1, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+                                                     pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(289,51): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(50, 129, dd_2, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:289:51: note: suggested alternative: 'pinMode'
+           display.drawBitmap(50, 129, dd_2, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+                                                     pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(291,51): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(50, 129, dd_3, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:291:51: note: suggested alternative: 'pinMode'
+           display.drawBitmap(50, 129, dd_3, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+                                                     pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(293,51): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(50, 129, dd_4, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:293:51: note: suggested alternative: 'pinMode'
+           display.drawBitmap(50, 129, dd_4, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+                                                     pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(295,51): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(50, 129, dd_5, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:295:51: note: suggested alternative: 'pinMode'
+           display.drawBitmap(50, 129, dd_5, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+                                                     pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(297,51): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(50, 129, dd_6, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:297:51: note: suggested alternative: 'pinMode'
+           display.drawBitmap(50, 129, dd_6, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+                                                     pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(299,51): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(50, 129, dd_7, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:299:51: note: suggested alternative: 'pinMode'
+           display.drawBitmap(50, 129, dd_7, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+                                                     pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(301,51): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(50, 129, dd_8, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:301:51: note: suggested alternative: 'pinMode'
+           display.drawBitmap(50, 129, dd_8, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+                                                     pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(303,51): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(50, 129, dd_9, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:303:51: note: suggested alternative: 'pinMode'
+           display.drawBitmap(50, 129, dd_9, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+                                                     pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(306,51): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(71, 129, dd_0, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:306:51: note: suggested alternative: 'pinMode'
+           display.drawBitmap(71, 129, dd_0, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+                                                     pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(308,51): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(71, 129, dd_1, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:308:51: note: suggested alternative: 'pinMode'
+           display.drawBitmap(71, 129, dd_1, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+                                                     pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(310,51): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(71, 129, dd_2, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:310:51: note: suggested alternative: 'pinMode'
+           display.drawBitmap(71, 129, dd_2, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+                                                     pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(312,51): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(71, 129, dd_3, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:312:51: note: suggested alternative: 'pinMode'
+           display.drawBitmap(71, 129, dd_3, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+                                                     pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(314,51): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(71, 129, dd_4, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:314:51: note: suggested alternative: 'pinMode'
+           display.drawBitmap(71, 129, dd_4, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+                                                     pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(316,51): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(71, 129, dd_5, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:316:51: note: suggested alternative: 'pinMode'
+           display.drawBitmap(71, 129, dd_5, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+                                                     pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(318,51): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(71, 129, dd_6, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:318:51: note: suggested alternative: 'pinMode'
+           display.drawBitmap(71, 129, dd_6, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+                                                     pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(320,51): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(71, 129, dd_7, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:320:51: note: suggested alternative: 'pinMode'
+           display.drawBitmap(71, 129, dd_7, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+                                                     pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(322,51): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(71, 129, dd_8, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:322:51: note: suggested alternative: 'pinMode'
+           display.drawBitmap(71, 129, dd_8, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+                                                     pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(324,51): error GFDB29013: 'darkMode' was not declared in this scope
+           display.drawBitmap(71, 129, dd_9, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:324:51: note: suggested alternative: 'pinMode'
+           display.drawBitmap(71, 129, dd_9, 16, 25, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                     ^~~~~~~~
+                                                     pinMode
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp: In function 'void drawSteps()':
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(330,9): error G7F572552: 'currentTime' was not declared in this scope
+       if (currentTime.Hour == 0 && currentTime.Minute == 0)
+           ^~~~~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:330:9: note: suggested alternative: 'breakTime'
+       if (currentTime.Hour == 0 && currentTime.Minute == 0)
+           ^~~~~~~~~~~
+           breakTime
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(370,5): error GA9F25B38: 'display' was not declared in this scope
+       display.fillRect(131, 148, l5, 9, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+       ^~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:370:5: note: suggested alternative: 'delay'
+       display.fillRect(131, 148, l5, 9, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+       ^~~~~~~
+       delay
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(370,39): error GFDB29013: 'darkMode' was not declared in this scope
+       display.fillRect(131, 148, l5, 9, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                         ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:370:39: note: suggested alternative: 'pinMode'
+       display.fillRect(131, 148, l5, 9, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                         ^~~~~~~~
+                                         pinMode
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp: In function 'void drawBattery()':
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(495,18): error G5EB7B0DD: 'getBatteryVoltage' was not declared in this scope
+       float VBAT = getBatteryVoltage();
+                    ^~~~~~~~~~~~~~~~~
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(536,9): error GA9F25B38: 'display' was not declared in this scope
+           display.fillRect(155, 169, batteryLevel, 15, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+           ^~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:536:9: note: suggested alternative: 'delay'
+           display.fillRect(155, 169, batteryLevel, 15, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+           ^~~~~~~
+           delay
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(536,54): error GFDB29013: 'darkMode' was not declared in this scope
+           display.fillRect(155, 169, batteryLevel, 15, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                        ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:536:54: note: suggested alternative: 'pinMode'
+           display.fillRect(155, 169, batteryLevel, 15, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                        ^~~~~~~~
+                                                        pinMode
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp: In function 'void drawFiel()':
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(544,5): error GA9F25B38: 'display' was not declared in this scope
+       display.drawBitmap(0, 0, field, 200, 200, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+       ^~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:544:5: note: suggested alternative: 'delay'
+       display.drawBitmap(0, 0, field, 200, 200, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+       ^~~~~~~
+       delay
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(544,47): error GFDB29013: 'darkMode' was not declared in this scope
+       display.drawBitmap(0, 0, field, 200, 200, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                 ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:544:47: note: suggested alternative: 'pinMode'
+       display.drawBitmap(0, 0, field, 200, 200, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                 ^~~~~~~~
+                                                 pinMode
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp: In function 'void drawMoon()':
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(552,16): error G7F572552: 'currentTime' was not declared in this scope
+       int year = currentTime.Year + 1970;
+                  ^~~~~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:552:16: note: suggested alternative: 'breakTime'
+       int year = currentTime.Year + 1970;
+                  ^~~~~~~~~~~
+                  breakTime
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(571,13): error GA9F25B38: 'display' was not declared in this scope
+               display.drawBitmap(131, 74, luna1, 61, 61, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+               ^~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:571:13: note: suggested alternative: 'delay'
+               display.drawBitmap(131, 74, luna1, 61, 61, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+               ^~~~~~~
+               delay
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(571,56): error GFDB29013: 'darkMode' was not declared in this scope
+               display.drawBitmap(131, 74, luna1, 61, 61, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                          ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:571:56: note: suggested alternative: 'pinMode'
+               display.drawBitmap(131, 74, luna1, 61, 61, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                          ^~~~~~~~
+                                                          pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(573,13): error GA9F25B38: 'display' was not declared in this scope
+               display.drawBitmap(131, 74, luna12, 61, 61, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+               ^~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:573:13: note: suggested alternative: 'delay'
+               display.drawBitmap(131, 74, luna12, 61, 61, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+               ^~~~~~~
+               delay
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(573,57): error GFDB29013: 'darkMode' was not declared in this scope
+               display.drawBitmap(131, 74, luna12, 61, 61, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                           ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:573:57: note: suggested alternative: 'pinMode'
+               display.drawBitmap(131, 74, luna12, 61, 61, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                           ^~~~~~~~
+                                                           pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(575,13): error GA9F25B38: 'display' was not declared in this scope
+               display.drawBitmap(131, 74, luna11, 61, 61, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+               ^~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:575:13: note: suggested alternative: 'delay'
+               display.drawBitmap(131, 74, luna11, 61, 61, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+               ^~~~~~~
+               delay
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(575,57): error GFDB29013: 'darkMode' was not declared in this scope
+               display.drawBitmap(131, 74, luna11, 61, 61, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                           ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:575:57: note: suggested alternative: 'pinMode'
+               display.drawBitmap(131, 74, luna11, 61, 61, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                           ^~~~~~~~
+                                                           pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(577,13): error GA9F25B38: 'display' was not declared in this scope
+               display.drawBitmap(131, 74, luna10, 61, 61, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+               ^~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:577:13: note: suggested alternative: 'delay'
+               display.drawBitmap(131, 74, luna10, 61, 61, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+               ^~~~~~~
+               delay
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(577,57): error GFDB29013: 'darkMode' was not declared in this scope
+               display.drawBitmap(131, 74, luna10, 61, 61, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                           ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:577:57: note: suggested alternative: 'pinMode'
+               display.drawBitmap(131, 74, luna10, 61, 61, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                           ^~~~~~~~
+                                                           pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(579,13): error GA9F25B38: 'display' was not declared in this scope
+               display.drawBitmap(131, 74, luna9, 61, 61, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+               ^~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:579:13: note: suggested alternative: 'delay'
+               display.drawBitmap(131, 74, luna9, 61, 61, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+               ^~~~~~~
+               delay
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(579,56): error GFDB29013: 'darkMode' was not declared in this scope
+               display.drawBitmap(131, 74, luna9, 61, 61, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                          ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:579:56: note: suggested alternative: 'pinMode'
+               display.drawBitmap(131, 74, luna9, 61, 61, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                          ^~~~~~~~
+                                                          pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(581,13): error GA9F25B38: 'display' was not declared in this scope
+               display.drawBitmap(131, 74, luna8, 61, 61, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+               ^~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:581:13: note: suggested alternative: 'delay'
+               display.drawBitmap(131, 74, luna8, 61, 61, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+               ^~~~~~~
+               delay
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(581,56): error GFDB29013: 'darkMode' was not declared in this scope
+               display.drawBitmap(131, 74, luna8, 61, 61, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                          ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:581:56: note: suggested alternative: 'pinMode'
+               display.drawBitmap(131, 74, luna8, 61, 61, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                          ^~~~~~~~
+                                                          pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(583,13): error GA9F25B38: 'display' was not declared in this scope
+               display.drawBitmap(131, 74, luna7, 61, 61, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+               ^~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:583:13: note: suggested alternative: 'delay'
+               display.drawBitmap(131, 74, luna7, 61, 61, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+               ^~~~~~~
+               delay
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(583,56): error GFDB29013: 'darkMode' was not declared in this scope
+               display.drawBitmap(131, 74, luna7, 61, 61, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                          ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:583:56: note: suggested alternative: 'pinMode'
+               display.drawBitmap(131, 74, luna7, 61, 61, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                          ^~~~~~~~
+                                                          pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(588,13): error GA9F25B38: 'display' was not declared in this scope
+               display.drawBitmap(131, 74, luna1, 61, 61, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+               ^~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:588:13: note: suggested alternative: 'delay'
+               display.drawBitmap(131, 74, luna1, 61, 61, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+               ^~~~~~~
+               delay
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(588,56): error GFDB29013: 'darkMode' was not declared in this scope
+               display.drawBitmap(131, 74, luna1, 61, 61, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                          ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:588:56: note: suggested alternative: 'pinMode'
+               display.drawBitmap(131, 74, luna1, 61, 61, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                          ^~~~~~~~
+                                                          pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(590,13): error GA9F25B38: 'display' was not declared in this scope
+               display.drawBitmap(131, 74, luna2, 61, 61, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+               ^~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:590:13: note: suggested alternative: 'delay'
+               display.drawBitmap(131, 74, luna2, 61, 61, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+               ^~~~~~~
+               delay
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(590,56): error GFDB29013: 'darkMode' was not declared in this scope
+               display.drawBitmap(131, 74, luna2, 61, 61, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                          ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:590:56: note: suggested alternative: 'pinMode'
+               display.drawBitmap(131, 74, luna2, 61, 61, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                          ^~~~~~~~
+                                                          pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(592,13): error GA9F25B38: 'display' was not declared in this scope
+               display.drawBitmap(131, 74, luna3, 61, 61, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+               ^~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:592:13: note: suggested alternative: 'delay'
+               display.drawBitmap(131, 74, luna3, 61, 61, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+               ^~~~~~~
+               delay
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(592,56): error GFDB29013: 'darkMode' was not declared in this scope
+               display.drawBitmap(131, 74, luna3, 61, 61, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                          ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:592:56: note: suggested alternative: 'pinMode'
+               display.drawBitmap(131, 74, luna3, 61, 61, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                          ^~~~~~~~
+                                                          pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(594,13): error GA9F25B38: 'display' was not declared in this scope
+               display.drawBitmap(131, 74, luna4, 61, 61, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+               ^~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:594:13: note: suggested alternative: 'delay'
+               display.drawBitmap(131, 74, luna4, 61, 61, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+               ^~~~~~~
+               delay
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(594,56): error GFDB29013: 'darkMode' was not declared in this scope
+               display.drawBitmap(131, 74, luna4, 61, 61, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                          ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:594:56: note: suggested alternative: 'pinMode'
+               display.drawBitmap(131, 74, luna4, 61, 61, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                          ^~~~~~~~
+                                                          pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(596,13): error GA9F25B38: 'display' was not declared in this scope
+               display.drawBitmap(131, 74, luna5, 61, 61, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+               ^~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:596:13: note: suggested alternative: 'delay'
+               display.drawBitmap(131, 74, luna5, 61, 61, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+               ^~~~~~~
+               delay
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(596,56): error GFDB29013: 'darkMode' was not declared in this scope
+               display.drawBitmap(131, 74, luna5, 61, 61, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                          ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:596:56: note: suggested alternative: 'pinMode'
+               display.drawBitmap(131, 74, luna5, 61, 61, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                          ^~~~~~~~
+                                                          pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(598,13): error GA9F25B38: 'display' was not declared in this scope
+               display.drawBitmap(131, 74, luna6, 61, 61, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+               ^~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:598:13: note: suggested alternative: 'delay'
+               display.drawBitmap(131, 74, luna6, 61, 61, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+               ^~~~~~~
+               delay
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(598,56): error GFDB29013: 'darkMode' was not declared in this scope
+               display.drawBitmap(131, 74, luna6, 61, 61, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                          ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:598:56: note: suggested alternative: 'pinMode'
+               display.drawBitmap(131, 74, luna6, 61, 61, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                          ^~~~~~~~
+                                                          pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(600,13): error GA9F25B38: 'display' was not declared in this scope
+               display.drawBitmap(131, 74, luna7, 61, 61, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+               ^~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:600:13: note: suggested alternative: 'delay'
+               display.drawBitmap(131, 74, luna7, 61, 61, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+               ^~~~~~~
+               delay
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(600,56): error GFDB29013: 'darkMode' was not declared in this scope
+               display.drawBitmap(131, 74, luna7, 61, 61, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                          ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:600:56: note: suggested alternative: 'pinMode'
+               display.drawBitmap(131, 74, luna7, 61, 61, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                          ^~~~~~~~
+                                                          pinMode
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp: In function 'void drawSun()':
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(620,16): error G7F572552: 'currentTime' was not declared in this scope
+       int year = currentTime.Year + 1970;
+                  ^~~~~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:620:16: note: suggested alternative: 'breakTime'
+       int year = currentTime.Year + 1970;
+                  ^~~~~~~~~~~
+                  breakTime
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(632,5): error GA9F25B38: 'display' was not declared in this scope
+       display.drawBitmap(110, 132 - tk, arr, 3, 5, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+       ^~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:632:5: note: suggested alternative: 'delay'
+       display.drawBitmap(110, 132 - tk, arr, 3, 5, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+       ^~~~~~~
+       delay
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(632,50): error GFDB29013: 'darkMode' was not declared in this scope
+       display.drawBitmap(110, 132 - tk, arr, 3, 5, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:632:50: note: suggested alternative: 'pinMode'
+       display.drawBitmap(110, 132 - tk, arr, 3, 5, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                    ^~~~~~~~
+                                                    pinMode
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(639,9): error G289120B9: 'settings' was not declared in this scope
+       if (settings.hours_am_pm == false && rh > 12)
+           ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:639:9: note: suggested alternative: 'sbttons'
+       if (settings.hours_am_pm == false && rh > 12)
+           ^~~~~~~~
+           sbttons
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(644,9): error G289120B9: 'settings' was not declared in this scope
+       if (settings.hours_am_pm == false && sh >12)
+           ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:644:9: note: suggested alternative: 'sbttons'
+       if (settings.hours_am_pm == false && sh >12)
+           ^~~~~~~~
+           sbttons
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp: In function 'void drawWeather()':
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(830,33): error G059F208E: 'getWeatherData' was not declared in this scope
+      weatherData currentWeather = getWeatherData();
+                                   ^~~~~~~~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:830:33: note: suggested alternative: 'weatherData'
+      weatherData currentWeather = getWeatherData();
+                                   ^~~~~~~~~~~~~~
+                                   weatherData
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(835,4): error GA9F25B38: 'display' was not declared in this scope
+      display.setFont(&DSEG7_Classic_Regular_39);
+      ^~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:835:4: note: suggested alternative: 'delay'
+      display.setFont(&DSEG7_Classic_Regular_39);
+      ^~~~~~~
+      delay
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(850,89): error GFDB29013: 'darkMode' was not declared in this scope
+      display.drawBitmap(165, 110, currentWeather.isMetric ? celsius : fahrenheit, 26, 20, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                                                           ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:850:89: note: suggested alternative: 'pinMode'
+      display.drawBitmap(165, 110, currentWeather.isMetric ? celsius : fahrenheit, 26, 20, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                                                           ^~~~~~~~
+                                                                                           pinMode
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp: In function 'void drawEva()':
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(901,5): error GA9F25B38: 'display' was not declared in this scope
+       display.drawBitmap(105, 100, eva, 100, 100, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+       ^~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:901:5: note: suggested alternative: 'delay'
+       display.drawBitmap(105, 100, eva, 100, 100, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+       ^~~~~~~
+       delay
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(901,49): error GFDB29013: 'darkMode' was not declared in this scope
+       display.drawBitmap(105, 100, eva, 100, 100, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:901:49: note: suggested alternative: 'pinMode'
+       display.drawBitmap(105, 100, eva, 100, 100, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                   ^~~~~~~~
+                                                   pinMode
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp: In function 'void drawLine()':
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(906,5): error GA9F25B38: 'display' was not declared in this scope
+       display.drawBitmap(100, 72, line, 1, 77, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+       ^~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:906:5: note: suggested alternative: 'delay'
+       display.drawBitmap(100, 72, line, 1, 77, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+       ^~~~~~~
+       delay
+src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp(906,46): error GFDB29013: 'darkMode' was not declared in this scope
+       display.drawBitmap(100, 72, line, 1, 77, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                ^~~~~~~~
+  src/WatchFace/Watchy_7_SEG/Watchy_7_SEG.cpp:906:46: note: suggested alternative: 'pinMode'
+       display.drawBitmap(100, 72, line, 1, 77, darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+                                                ^~~~~~~~
+                                                pinMode
+  *** [.pio\build\esp32dev\src\WatchFace\Watchy_7_SEG\Watchy_7_SEG.cpp.o] Error 1
+  ========================= [FAILED] Took 18.46 seconds =========================
 C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.MakeFile.Targets(45,5): error MSB3073: выход из команды "platformio -f -c visualstudio run" с кодом 1.

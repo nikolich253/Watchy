@@ -50,6 +50,7 @@ typedef struct watchyFaceParams
     TimerHandle_t watchyTimerButton;
 } watchyFaceParams;
 
+extern watchyFaceParams *wf_params_ptr = new watchyFaceParams;
 
 void timerFaceCallback(TimerHandle_t xTimer);
 void timerButtonCallback(TimerHandle_t xTimer);
@@ -59,13 +60,11 @@ class WatchyFace : public Watchy
     using Watchy::Watchy;
 
 public:
-    static watchyFaceParams wf_params;
     void init();
     void drawSimpleWatchFace();
     void drawDetailWatchFace();
 
     void showWatchFace(bool partialRefresh);
-
     virtual void handleButtonPress();
 };
 

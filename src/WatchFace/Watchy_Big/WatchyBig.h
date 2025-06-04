@@ -9,7 +9,7 @@
 
 // void WatchyFace::drawSimpleWatchFace();
 
-void drawTime(tmElements_t currentTime);
+void drawBigTime(tmElements_t currentTime);
 // virtual void handleButtonPress();
 
 void drawNumber(uint8_t number, uint8_t x, uint8_t y, uint16_t color);

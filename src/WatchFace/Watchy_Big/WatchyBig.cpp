@@ -2,15 +2,15 @@
 
 void WatchyFace::drawSimpleWatchFace()
 {
-	display.fillScreen(wf_params.darkMode ? GxEPD_BLACK : GxEPD_WHITE);
-	display.setTextColor(wf_params.darkMode ? GxEPD_WHITE : GxEPD_BLACK);
-	drawTime(currentTime);
+	display.fillScreen(wf_params_ptr -> darkMode ? GxEPD_BLACK : GxEPD_WHITE);
+	display.setTextColor(wf_params_ptr -> darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+	drawBigTime(currentTime);
 }
 
-void drawTime(tmElements_t currentTime)
+void drawBigTime(tmElements_t currentTime)
 {
 	uint8_t displayHour;
-	uint16_t color = (WatchyFace::wf_params.darkMode ? GxEPD_WHITE : GxEPD_BLACK);
+	uint16_t color = (wf_params_ptr -> darkMode ? GxEPD_WHITE : GxEPD_BLACK);
 	if (HOUR_12_24 == 12)
 	{
 		displayHour = ((currentTime.Hour + 11) % 12) + 1;
@@ -22,7 +22,7 @@ void drawTime(tmElements_t currentTime)
 	drawNumber(displayHour, 0, 0, color);
 	drawNumber(currentTime.Minute, 0, 100, color);
 
-	if (WatchyFace::wf_params.hours_am_pm == true)
+	if (wf_params_ptr -> hours_am_pm == true)
 	{
 		WatchyFace::display.setFont(&DSEG7_Classic_Regular_15);
 		WatchyFace::display.setCursor(0, 108);

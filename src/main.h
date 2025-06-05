@@ -39,7 +39,7 @@ typedef enum buttons
     MENU_BTN,
 } buttons;
 
-typedef struct watchyFaceParams
+typedef struct wf_params_t
 {
     buttons lastPressedButton;
     showFaceMode sfm;
@@ -48,24 +48,36 @@ typedef struct watchyFaceParams
     bool hours_am_pm;
     TimerHandle_t watchyTimerFace;
     TimerHandle_t watchyTimerButton;
-} watchyFaceParams;
+} wf_params_t;
 
-extern watchyFaceParams *wf_params_ptr = new watchyFaceParams;
+extern wf_params_t *wf_params_ptr;
 
 void timerFaceCallback(TimerHandle_t xTimer);
 void timerButtonCallback(TimerHandle_t xTimer);
+
+class AdafruitWatchy : public Adafruit_GFX
+{
+    using Adafruit_GFX::Adafruit_GFX;
+
+public:
+    void drawFlipBitmap(SegmentBitmap segment, int16_t x, int16_t y, int16_t color);
+};
 
 class WatchyFace : public Watchy
 {
     using Watchy::Watchy;
 
 public:
-    void init();
+    int batt;
+    weatherData weather;
+
+    virtual void init();
+    // virtual void showWatchFace(bool partialRefresh);
+    virtual void handleButtonPress();
+
+    void drawWatchFace();
     void drawSimpleWatchFace();
     void drawDetailWatchFace();
-
-    void showWatchFace(bool partialRefresh);
-    virtual void handleButtonPress();
 };
 
 #endif

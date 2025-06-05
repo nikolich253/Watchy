@@ -1,5 +1,8 @@
 #include "main.h"
 
+wf_params_t* wf_params_ptr = nullptr;
+Adafruit_GFX* Adafruit_wf = nullptr;
+
 void timerButtonCallback(TimerHandle_t xTimer)
 {
     wf_params_ptr->lastPressedButton = NULL_BTN;
@@ -12,8 +15,48 @@ void timerFaceCallback(TimerHandle_t xTimer)
     WatchyFace::display.refresh(true); // Частичное обновление
 }
 
+void AdafruitWatchy::drawFlipBitmap(SegmentBitmap segment, int16_t x, int16_t y, int16_t color)
+{
+    int16_t byteWidth = (segment.width + 7) / 8;
+    uint8_t _buffer[segment.width / 8 * segment.height]; // буфер размером в количество байт изображения
+    for (int16_t j = 0; j < segment.height; j++)
+    {
+        for (int16_t i = 0; i < segment.width; i++)
+        {
+            uint8_t byteIndex = byteWidth * j + i / 8;
+            uint8_t bitIndex = 7 - i % 8;
+            uint8_t bitValue = (segment.bitmap[byteIndex] >> bitIndex) & 1;
+            // Проверяем флаги вертикального и горизонтального зеркаления
+            if (segment.v_flip){
+                bitIndex = 7 - bitIndex;
+            }
+            if (segment.h_flip)
+            {
+                byteIndex = byteWidth * (segment.height - j - 1) + i / 8;
+            }
+            if (bitValue){
+                    _buffer[byteWidth * j + i / 8] |= (1 << (7 - i % 8));
+            }
+            else{
+                _buffer[byteWidth * j + i / 8] &= ~(1 << (7 - i % 8));
+            }
+        }
+        Adafruit_wf->drawBitmap(x, y + j, &_buffer[byteWidth * j], segment.width, segment.height, color);
+    }
+
+    Adafruit_wf->startWrite();
+
+
+
+
+
+
+    Adafruit_wf->endWrite();
+}
+
 void WatchyFace::init()
 {
+    Watchy::init();
     wf_params_ptr->darkMode = false;
     wf_params_ptr->lastPressedButton = NULL_BTN;
     wf_params_ptr->hours_am_pm = false;
@@ -22,7 +65,7 @@ void WatchyFace::init()
     // Создаем таймер сброса на простой циферблат(период 5 секунд, автоперезагрузка)
     wf_params_ptr->watchyTimerFace = xTimerCreate(
         "WatchyTimerFace",    // Название (для отладки)
-        pdMS_TO_TICKS(30000), // Период (5 секунд)
+        pdMS_TO_TICKS(15000), // Период (15 секунд)
         pdFALSE,              // Автоповтор (true)
         (void *)0,            // ID таймера (можно передать данные)
         timerFaceCallback     // Функция-обработчик
@@ -31,22 +74,32 @@ void WatchyFace::init()
     // Создаём таймер сброса кнопок (период 5 секунд, автоперезагрузка)
     wf_params_ptr->watchyTimerButton = xTimerCreate(
         "WatchyTimerButton", // Название (для отладки)
-        pdMS_TO_TICKS(1000), // Период (2 секунд)
+        pdMS_TO_TICKS(1000), // Период (1 секунд)
         pdFALSE,             // Автоповтор (true)
         (void *)0,           // ID таймера (можно передать данные)
         timerButtonCallback  // Функция-обработчик
     );
 }
 
-void WatchyFace::showWatchFace(bool partialRefresh)
+void WatchyFace::drawWatchFace()
 {
     RTC.read(currentTime);
+    // ** UPDATE **
+    // resets step counter at midnight daily
+    if (currentTime.Hour == 00 && currentTime.Minute == 00)
+    {
+        sensor.resetStepCounter();
+    }
+
     if (wf_params_ptr->sfm == SIMPLE)
     {
         drawSimpleWatchFace();
     }
     else
     {
+        // ** GET BATTERY **
+        batt = getBatteryVoltage()  - 3.3;
+        weather = getWeatherData();
         drawDetailWatchFace();
     }
 }

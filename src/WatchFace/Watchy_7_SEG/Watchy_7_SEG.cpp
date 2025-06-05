@@ -1,17 +1,8 @@
 #include "Watchy_7_SEG.h"
 
-// wf_params_ptr -> darkMode
-// #define wf_params_ptr -> darkMode false
-
-// wf_params_ptr -> hours_am_pm, change it to 12 to switch to 12-hour
-// #define wf_params_ptr -> hours_am_pm 24
-
 // change it to your location
 //          latitude, longitude, timezone
-#define LOC 31.00, 121.00, 8
-
-// RTC_DATA_ATTR int showState = 0;
-// RTC_DATA_ATTR bool wf_params_ptr -> hours_am_pm = true;
+#define LOC 44.885368, 40.591190, 3
 
 moonPhaser moonP;
 
@@ -23,9 +14,9 @@ void WatchyFace::drawDetailWatchFace()
     drawDetailTime(currentTime);
     drawDate(currentTime);
     drawSteps(currentTime);
-    drawWeather(Watchy::getWeatherData());
 
-    drawBattery(Watchy::getBatteryVoltage());
+    drawWeather(weather);
+    drawBattery(batt);
     drawEva();
     drawLine();
 
